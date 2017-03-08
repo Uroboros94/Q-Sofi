@@ -26,5 +26,6 @@
 /*Configuraciones*/
 	$(Must_Include=qvs.componentes.AX\qvc_runtime\qvc.qvs);
 	$(Must_Include=qvs.SOFI.AX\_Configuracion.qvs);
+	
 /*	Hechos	*/
 	$(Must_Include=qvs.SOFI.AX\_Contabilidad.qvs);
