@@ -2,7 +2,7 @@
   <CurrentFileFormat>6000</CurrentFileFormat>
   <SaveCompressed>0</SaveCompressed>
   <UsePassiveFtp>false</UsePassiveFtp>
-  <IgnoreInfoLost>true</IgnoreInfoLost>
+  <IgnoreInfoLost>false</IgnoreInfoLost>
   <GenerateLogfile>false</GenerateLogfile>
   <OpenPicTimeout>0</OpenPicTimeout>
   <OpenPicCloseOnClick>0</OpenPicCloseOnClick>
@@ -767,7 +767,7 @@
     <ExtendedValues></ExtendedValues>
     <StateName></StateName>
   </CaptionFrame>
-  <HasTableOriginOfFields>true</HasTableOriginOfFields>
+  <HasTableOriginOfFields>false</HasTableOriginOfFields>
   <ReloadTimeObsololete></ReloadTimeObsololete>
   <VBModulePos>-2</VBModulePos>
   <VBModuleXScrollPos>-2</VBModuleXScrollPos>
@@ -792,10 +792,10 @@
       <DayNames>
         <String>Lun</String>
         <String>Mar</String>
-        <String>MiÃ©</String>
+        <String>Mié</String>
         <String>Jue</String>
         <String>Vie</String>
-        <String>SÃ¡b</String>
+        <String>Sáb</String>
         <String>Dom</String>
       </DayNames>
       <MonthNames>
@@ -815,10 +815,10 @@
       <LongDayNames>
         <String>Lunes</String>
         <String>Martes</String>
-        <String>MiÃ©rcoles</String>
+        <String>Miércoles</String>
         <String>Jueves</String>
         <String>Viernes</String>
-        <String>SÃ¡bado</String>
+        <String>Sábado</String>
         <String>Domingo</String>
       </LongDayNames>
       <LongMonthNames>
@@ -1256,7 +1256,7 @@
       <Alpha>255</Alpha>
     </ColorAreaDef>
   </SelectionBgColor>
-  <ObjectCaptionStyle>OCS_SIMPLIFIED_AIR</ObjectCaptionStyle>
+  <ObjectCaptionStyle>OCS_PLAIN</ObjectCaptionStyle>
   <DefaultTheme></DefaultTheme>
   <DisableLayoutUndo>false</DisableLayoutUndo>
   <ClientGracefulMode>CG_INDICATE</ClientGracefulMode>
@@ -1304,10 +1304,10 @@
   <Extensions></Extensions>
   <ExtensionDescriptions></ExtensionDescriptions>
   <AllowServerAnnotation>true</AllowServerAnnotation>
-  <LastReloadTimeAsISOString>2017-03-08T16:32:53.986Z</LastReloadTimeAsISOString>
+  <LastReloadTimeAsISOString>2017-03-08T14:57:47.695Z</LastReloadTimeAsISOString>
   <AppProperties>
     <Title></Title>
-    <LastReloadTime>2017-03-08T16:32:53.986Z</LastReloadTime>
+    <LastReloadTime>2017-03-08T14:57:47.695Z</LastReloadTime>
     <MigrationHash></MigrationHash>
     <SavedInProductVersion></SavedInProductVersion>
     <Thumbnail></Thumbnail>

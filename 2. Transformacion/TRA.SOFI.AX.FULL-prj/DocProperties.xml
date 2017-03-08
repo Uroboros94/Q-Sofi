@@ -2,7 +2,7 @@
   <CurrentFileFormat>6000</CurrentFileFormat>
   <SaveCompressed>0</SaveCompressed>
   <UsePassiveFtp>false</UsePassiveFtp>
-  <IgnoreInfoLost>true</IgnoreInfoLost>
+  <IgnoreInfoLost>false</IgnoreInfoLost>
   <GenerateLogfile>false</GenerateLogfile>
   <OpenPicTimeout>0</OpenPicTimeout>
   <OpenPicCloseOnClick>0</OpenPicCloseOnClick>
@@ -13,9 +13,9 @@
   <ScriptingEngine>0</ScriptingEngine>
   <PrintSheetSettings>
     <Landscape>true</Landscape>
-    <PrintCurrentSelectionPosition>BOTTOM_OF_LAST_PAGE</PrintCurrentSelectionPosition>
-    <ShowTimeStamp>true</ShowTimeStamp>
-    <ShowWindowTitle>true</ShowWindowTitle>
+    <PrintCurrentSelectionPosition>NO_SELECTION</PrintCurrentSelectionPosition>
+    <ShowTimeStamp>false</ShowTimeStamp>
+    <ShowWindowTitle>false</ShowWindowTitle>
     <MarginLeft>236</MarginLeft>
     <MarginTop>236</MarginTop>
     <MarginRight>236</MarginRight>
@@ -28,48 +28,48 @@
     <MarginHeader>120</MarginHeader>
     <MarginFooter>120</MarginFooter>
     <Header_Left_Font>
-      <FontName>Tahoma</FontName>
-      <PointSize1000>8000</PointSize1000>
+      <FontName>0,0,Arial</FontName>
+      <PointSize1000>10000</PointSize1000>
       <Underline>false</Underline>
       <Bold>false</Bold>
       <Italic>false</Italic>
       <DropShadow>false</DropShadow>
     </Header_Left_Font>
     <Header_Center_Font>
-      <FontName>Tahoma</FontName>
-      <PointSize1000>8000</PointSize1000>
+      <FontName>0,0,Arial</FontName>
+      <PointSize1000>10000</PointSize1000>
       <Underline>false</Underline>
       <Bold>false</Bold>
       <Italic>false</Italic>
       <DropShadow>false</DropShadow>
     </Header_Center_Font>
     <Header_Right_Font>
-      <FontName>Tahoma</FontName>
-      <PointSize1000>8000</PointSize1000>
+      <FontName>0,0,Arial</FontName>
+      <PointSize1000>10000</PointSize1000>
       <Underline>false</Underline>
       <Bold>false</Bold>
       <Italic>false</Italic>
       <DropShadow>false</DropShadow>
     </Header_Right_Font>
     <Footer_Left_Font>
-      <FontName>Tahoma</FontName>
-      <PointSize1000>8000</PointSize1000>
+      <FontName>0,0,Arial</FontName>
+      <PointSize1000>10000</PointSize1000>
       <Underline>false</Underline>
       <Bold>false</Bold>
       <Italic>false</Italic>
       <DropShadow>false</DropShadow>
     </Footer_Left_Font>
     <Footer_Center_Font>
-      <FontName>Tahoma</FontName>
-      <PointSize1000>8000</PointSize1000>
+      <FontName>0,0,Arial</FontName>
+      <PointSize1000>10000</PointSize1000>
       <Underline>false</Underline>
       <Bold>false</Bold>
       <Italic>false</Italic>
       <DropShadow>false</DropShadow>
     </Footer_Center_Font>
     <Footer_Right_Font>
-      <FontName>Tahoma</FontName>
-      <PointSize1000>8000</PointSize1000>
+      <FontName>0,0,Arial</FontName>
+      <PointSize1000>10000</PointSize1000>
       <Underline>false</Underline>
       <Bold>false</Bold>
       <Italic>false</Italic>
@@ -102,9 +102,9 @@
   </PrintSheetSettings>
   <TableViewerPrintSettings>
     <Landscape>true</Landscape>
-    <PrintCurrentSelectionPosition>BOTTOM_OF_LAST_PAGE</PrintCurrentSelectionPosition>
-    <ShowTimeStamp>true</ShowTimeStamp>
-    <ShowWindowTitle>true</ShowWindowTitle>
+    <PrintCurrentSelectionPosition>NO_SELECTION</PrintCurrentSelectionPosition>
+    <ShowTimeStamp>false</ShowTimeStamp>
+    <ShowWindowTitle>false</ShowWindowTitle>
     <MarginLeft>236</MarginLeft>
     <MarginTop>236</MarginTop>
     <MarginRight>236</MarginRight>
@@ -117,48 +117,48 @@
     <MarginHeader>120</MarginHeader>
     <MarginFooter>120</MarginFooter>
     <Header_Left_Font>
-      <FontName>Tahoma</FontName>
-      <PointSize1000>8000</PointSize1000>
+      <FontName>0,0,Arial</FontName>
+      <PointSize1000>10000</PointSize1000>
       <Underline>false</Underline>
       <Bold>false</Bold>
       <Italic>false</Italic>
       <DropShadow>false</DropShadow>
     </Header_Left_Font>
     <Header_Center_Font>
-      <FontName>Tahoma</FontName>
-      <PointSize1000>8000</PointSize1000>
+      <FontName>0,0,Arial</FontName>
+      <PointSize1000>10000</PointSize1000>
       <Underline>false</Underline>
       <Bold>false</Bold>
       <Italic>false</Italic>
       <DropShadow>false</DropShadow>
     </Header_Center_Font>
     <Header_Right_Font>
-      <FontName>Tahoma</FontName>
-      <PointSize1000>8000</PointSize1000>
+      <FontName>0,0,Arial</FontName>
+      <PointSize1000>10000</PointSize1000>
       <Underline>false</Underline>
       <Bold>false</Bold>
       <Italic>false</Italic>
       <DropShadow>false</DropShadow>
     </Header_Right_Font>
     <Footer_Left_Font>
-      <FontName>Tahoma</FontName>
-      <PointSize1000>8000</PointSize1000>
+      <FontName>0,0,Arial</FontName>
+      <PointSize1000>10000</PointSize1000>
       <Underline>false</Underline>
       <Bold>false</Bold>
       <Italic>false</Italic>
       <DropShadow>false</DropShadow>
     </Footer_Left_Font>
     <Footer_Center_Font>
-      <FontName>Tahoma</FontName>
-      <PointSize1000>8000</PointSize1000>
+      <FontName>0,0,Arial</FontName>
+      <PointSize1000>10000</PointSize1000>
       <Underline>false</Underline>
       <Bold>false</Bold>
       <Italic>false</Italic>
       <DropShadow>false</DropShadow>
     </Footer_Center_Font>
     <Footer_Right_Font>
-      <FontName>Tahoma</FontName>
-      <PointSize1000>8000</PointSize1000>
+      <FontName>0,0,Arial</FontName>
+      <PointSize1000>10000</PointSize1000>
       <Underline>false</Underline>
       <Bold>false</Bold>
       <Italic>false</Italic>
@@ -567,27 +567,10 @@
   <CaptionFrame>
     <BorderWidth>4</BorderWidth>
     <BorderEffect>FLAT</BorderEffect>
-    <Color>
-      <Mode>COLORAREA_SOLID</Mode>
-      <Luminosity>85</Luminosity>
-      <FillDirection>COLORAREA_HORZ</FillDirection>
-      <FillPattern>COLORAREA_PATTERN1</FillPattern>
-      <PrimaryCol>
-        <Col>
-          <Red>4</Red>
-          <Green>108</Green>
-          <Blue>193</Blue>
-          <Alpha>255</Alpha>
-        </Col>
-        <IsCalculated>false</IsCalculated>
-        <ColorExpr></ColorExpr>
-      </PrimaryCol>
-      <SecondaryCol></SecondaryCol>
-      <Alpha>255</Alpha>
-    </Color>
+    <Color></Color>
     <Font>
-      <FontName>Tahoma</FontName>
-      <PointSize1000>8000</PointSize1000>
+      <FontName>0,0,Arial</FontName>
+      <PointSize1000>10000</PointSize1000>
       <Underline>false</Underline>
       <Bold>false</Bold>
       <Italic>false</Italic>
@@ -767,7 +750,7 @@
     <ExtendedValues></ExtendedValues>
     <StateName></StateName>
   </CaptionFrame>
-  <HasTableOriginOfFields>true</HasTableOriginOfFields>
+  <HasTableOriginOfFields>false</HasTableOriginOfFields>
   <ReloadTimeObsololete></ReloadTimeObsololete>
   <VBModulePos>-2</VBModulePos>
   <VBModuleXScrollPos>-2</VBModuleXScrollPos>
@@ -783,7 +766,7 @@
     <ListSep>;</ListSep>
     <MoneyDecimalSep>,</MoneyDecimalSep>
     <MoneyThousandSep>.</MoneyThousandSep>
-    <CurrentYear>2016</CurrentYear>
+    <CurrentYear>2017</CurrentYear>
     <MoneyFmt>$#.##0,00;-$#.##0,00</MoneyFmt>
     <TimeFmt>h:mm:ss TT</TimeFmt>
     <DateFmt>DD/MM/YYYY</DateFmt>
@@ -792,10 +775,10 @@
       <DayNames>
         <String>Lun</String>
         <String>Mar</String>
-        <String>MiÃ©</String>
+        <String>Mié</String>
         <String>Jue</String>
         <String>Vie</String>
-        <String>SÃ¡b</String>
+        <String>Sáb</String>
         <String>Dom</String>
       </DayNames>
       <MonthNames>
@@ -815,10 +798,10 @@
       <LongDayNames>
         <String>Lunes</String>
         <String>Martes</String>
-        <String>MiÃ©rcoles</String>
+        <String>Miércoles</String>
         <String>Jueves</String>
         <String>Viernes</String>
-        <String>SÃ¡bado</String>
+        <String>Sábado</String>
         <String>Domingo</String>
       </LongDayNames>
       <LongMonthNames>
@@ -1297,17 +1280,17 @@
   <NotClearedForNamedUserDocumentCalReason></NotClearedForNamedUserDocumentCalReason>
   <UseMetaSectionAccessNames>true</UseMetaSectionAccessNames>
   <SelectionAlpha>255</SelectionAlpha>
-  <DefaultTextSearchMode>TEXT_SEARCH_NORMAL</DefaultTextSearchMode>
+  <DefaultTextSearchMode>TEXT_SEARCH_WILDCARD</DefaultTextSearchMode>
   <OEMProtected>true</OEMProtected>
   <OEM_IDS></OEM_IDS>
   <StateNames></StateNames>
   <Extensions></Extensions>
   <ExtensionDescriptions></ExtensionDescriptions>
   <AllowServerAnnotation>true</AllowServerAnnotation>
-  <LastReloadTimeAsISOString>2017-03-08T16:32:53.986Z</LastReloadTimeAsISOString>
+  <LastReloadTimeAsISOString>2017-03-08T16:32:45.952Z</LastReloadTimeAsISOString>
   <AppProperties>
     <Title></Title>
-    <LastReloadTime>2017-03-08T16:32:53.986Z</LastReloadTime>
+    <LastReloadTime>2017-03-08T16:32:45.952Z</LastReloadTime>
     <MigrationHash></MigrationHash>
     <SavedInProductVersion></SavedInProductVersion>
     <Thumbnail></Thumbnail>

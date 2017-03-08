@@ -8,8 +8,9 @@
   </AlwaysLoose>
   <FieldSrcTables>
     <String>6</String>
-    <String>1</String>
+    <String>2</String>
     <String>Contabilidad</String>
+    <String>EstructuraComercial</String>
     <String>7</String>
     <String>1</String>
     <String>Contabilidad</String>
@@ -80,9 +81,8 @@
     <String>1</String>
     <String>Contabilidad</String>
     <String>30</String>
-    <String>2</String>
+    <String>1</String>
     <String>Contabilidad</String>
-    <String>EstructuraComercial</String>
     <String>31</String>
     <String>1</String>
     <String>Contabilidad</String>
@@ -425,6 +425,8 @@
           <String>Contabilidad.DIA</String>
           <String>Contabilidad.NOMDIA</String>
           <String>Contabilidad.SEMANA</String>
+          <String>Contabilidad.ANO</String>
+          <String>Contabilidad.MES</String>
           <String>Contabilidad.LEDGER</String>
           <String>Contabilidad.JOURNALCATEGORY</String>
           <String>Contabilidad.LEDGERDIMENSION</String>
@@ -440,9 +442,7 @@
           <String>Contabilidad.DEBITO</String>
           <String>Contabilidad.CREDITO</String>
           <String>Contabilidad.MOVIMIENTO</String>
-          <String>Contabilidad.ANO</String>
           <String>Contabilidad.ISCREDIT</String>
-          <String>Contabilidad.MES</String>
           <String>Contabilidad.FECHAVENCIMIENTO</String>
           <String>Contabilidad.TASA_CAMBIO</String>
           <String>EC.IdCanal</String>
@@ -460,6 +460,8 @@
           <String>Contabilidad.DIA</String>
           <String>Contabilidad.NOMDIA</String>
           <String>Contabilidad.SEMANA</String>
+          <String>Contabilidad.ANO</String>
+          <String>Contabilidad.MES</String>
           <String>Contabilidad.LEDGER</String>
           <String>Contabilidad.JOURNALCATEGORY</String>
           <String>Contabilidad.LEDGERDIMENSION</String>
@@ -472,9 +474,7 @@
           <String>Contabilidad.CUENTA_N3</String>
           <String>Contabilidad.CUENTA_N4</String>
           <String>Contabilidad.CUENTA_N5</String>
-          <String>Contabilidad.ANO</String>
           <String>Contabilidad.ISCREDIT</String>
-          <String>Contabilidad.MES</String>
           <String>Contabilidad.FECHAVENCIMIENTO</String>
           <String>EC.IdCanal</String>
           <String>EC.IdCoordinador</String>

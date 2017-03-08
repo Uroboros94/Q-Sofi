@@ -1,4 +1,4 @@
-/*	Variables Iniciales	*/
+﻿/*	Variables Iniciales	*/
 	SET ThousandSep='.';
 	SET DecimalSep=',';
 	SET MoneyThousandSep='.';
@@ -17,14 +17,14 @@
 	SET FirstMonthOfYear=1;
 	SET CollationLocale='es-CO';
 
-/*Variables Personalizadas*/
+/*Variables personalizadas*/
 	SET vRutaOri = '..\QVD\AX\ORI\';
 	SET vRutaTra = '..\QVD\AX\TRA\';
+	SET vRutaOriBiQuest = '..\QVD\BIQUEST\ORI\';
+	SET vRutaOriPLM = '..\QVD\PLM\ORI\';
 
-/*Hechos*/
-	/*Contabilidad*/
-	$(Must_Include=qvs.axfinanciero\contabilidad.qvs);
-
-/*Dimensiones*/
-	/*Maestro de Estrucutura comerciales*/
-	$(Must_Include=qvs.componentes\estructuracomercial.qvs);
+/*Configuraciones*/
+	$(Must_Include=qvs.componentes.AX\qvc_runtime\qvc.qvs);
+	$(Must_Include=qvs.SOFI.AX\_Configuracion.qvs);
+/*	Hechos	*/
+	$(Must_Include=qvs.SOFI.AX\_Contabilidad.qvs);

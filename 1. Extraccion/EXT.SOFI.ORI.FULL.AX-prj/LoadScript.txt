@@ -1,0 +1,6 @@
+﻿///$tab Main
+/*Archivo de Carga*/
+$(Must_Include=qvs.ax\EXT.SOFI.ORI.FULL.SCRIPT.qvs);
+///$tab Exit Script
+TRACE Extracción Finalizada;
+EXIT SCRIPT;
