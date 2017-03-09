@@ -23,9 +23,10 @@
 	SET vRutaOriBiQuest = '..\QVD\BIQUEST\ORI\';
 	SET vRutaOriPLM = '..\QVD\PLM\ORI\';
 
-/*Configuraciones*/
+///*Configuraciones*/
 	$(Must_Include=qvs.componentes.AX\qvc_runtime\qvc.qvs);
 	$(Must_Include=qvs.SOFI.AX\_Configuracion.qvs);
 	
 /*	Hechos	*/
-	$(Must_Include=qvs.SOFI.AX\_Contabilidad.qvs);
+	//$(Must_Include=qvs.SOFI.AX\_Contabilidad.qvs);
+	$(Must_Include=qvs.SOFI.AX\_Homologacion.qvs);
