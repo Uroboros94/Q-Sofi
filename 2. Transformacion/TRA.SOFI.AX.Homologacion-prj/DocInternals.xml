@@ -1,7 +1,29 @@
 ﻿<DocInternals>
   <AlwaysLoose></AlwaysLoose>
   <FieldSrcTables></FieldSrcTables>
-  <TableViewData></TableViewData>
+  <TableViewData>
+    <Pos></Pos>
+    <CtlInfo>
+      <InternalView>
+        <Tables>
+          <TableViewTableWinSaveInfo>
+            <Pos>
+              <Left>575</Left>
+              <Top>224</Top>
+              <Width>212</Width>
+              <Height>208</Height>
+            </Pos>
+            <Caption>Contabilidad</Caption>
+          </TableViewTableWinSaveInfo>
+        </Tables>
+        <BroomPoints></BroomPoints>
+        <ConnectionPoints></ConnectionPoints>
+        <ZoomFactor>3FF0000000000000</ZoomFactor>
+      </InternalView>
+      <SourceView></SourceView>
+    </CtlInfo>
+    <Mode>0</Mode>
+  </TableViewData>
   <Bookmarks></Bookmarks>
   <SavedByVersion>12.10.10000.0</SavedByVersion>
   <ForceBackEndMacroExecution>false</ForceBackEndMacroExecution>

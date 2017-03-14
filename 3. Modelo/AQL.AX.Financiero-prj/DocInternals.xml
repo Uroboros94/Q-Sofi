@@ -8,9 +8,8 @@
   </AlwaysLoose>
   <FieldSrcTables>
     <String>6</String>
-    <String>2</String>
+    <String>1</String>
     <String>Contabilidad</String>
-    <String>EstructuraComercial</String>
     <String>7</String>
     <String>1</String>
     <String>Contabilidad</String>
@@ -192,8 +191,9 @@
     <String>1</String>
     <String>Contabilidad</String>
     <String>67</String>
-    <String>1</String>
+    <String>2</String>
     <String>Contabilidad</String>
+    <String>EstructuraComercial</String>
     <String>68</String>
     <String>1</String>
     <String>Contabilidad</String>
@@ -337,33 +337,32 @@
           <String>$Field</String>
           <String>$Table</String>
           <String>$Info</String>
-          <String>Contabilidad.TRANSACTIONCURRENCYCODE</String>
-          <String>Contabilidad.TRIMESTRE</String>
-          <String>Contabilidad.VOUCHER</String>
-          <String>Contabilidad.JOURNALNUMBER</String>
-          <String>Contabilidad.SUBLEDGERVOUCHER</String>
-          <String>Contabilidad.SUBLEDGERVOUCHERDATAAREAID</String>
-          <String>Contabilidad.LAYER</String>
+          <String>Contabilidad.DESC_COLECCION</String>
+          <String>Contabilidad.DESC_FACTURA</String>
+          <String>Contabilidad.DESC_FLUJO_DE_EFECTIVO</String>
+          <String>Contabilidad.DESC_LINEA</String>
+          <String>Contabilidad.DESC_MAINACCOUNT</String>
+          <String>Contabilidad.DESC_MARCA</String>
+          <String>Contabilidad.DESC_PROYECTO</String>
+          <String>Contabilidad.DESC_SUBLINEA</String>
+          <String>Contabilidad.DESC_TIPO_DE_TIENDA</String>
           <String>Contabilidad.DIMENSION_COLECCION</String>
           <String>Contabilidad.DIMENSION_LINEA</String>
           <String>Contabilidad.DIMENSION_SUBLINEA</String>
-          <String>Contabilidad.DESC_MAINACCOUNT</String>
-          <String>Contabilidad.DESC_TIPO_DE_TIENDA</String>
-          <String>Contabilidad.DESC_TERCERO</String>
-          <String>Contabilidad.DESC_SUBLINEA</String>
-          <String>Contabilidad.DESC_PROYECTO</String>
-          <String>Contabilidad.DESC_MARCA</String>
-          <String>Contabilidad.DESC_LINEA</String>
-          <String>Contabilidad.DESC_FLUJO_DE_EFECTIVO</String>
-          <String>Contabilidad.DESC_ESTRUCTURA_COMERCIAL</String>
-          <String>Contabilidad.DESC_COLECCION</String>
-          <String>Contabilidad.DESC_CENTRO_DE_COSTO</String>
+          <String>Contabilidad.JOURNALNUMBER</String>
+          <String>Contabilidad.LAYER</String>
+          <String>Contabilidad.NOMBRE_AUXILIAR</String>
           <String>Contabilidad.NOMBRE_CUENTA_N1</String>
           <String>Contabilidad.NOMBRE_CUENTA_N2</String>
           <String>Contabilidad.NOMBRE_CUENTA_N3</String>
           <String>Contabilidad.NOMBRE_CUENTA_N4</String>
-          <String>Contabilidad.NOMBRE_AUXILIAR</String>
-          <String>Contabilidad.DESC_FACTURA</String>
+          <String>Contabilidad.SUBLEDGERVOUCHER</String>
+          <String>Contabilidad.SUBLEDGERVOUCHERDATAAREAID</String>
+          <String>Contabilidad.TRANSACTIONCURRENCYCODE</String>
+          <String>Contabilidad.VOUCHER</String>
+          <String>Contabilidad.TRIMESTRE</String>
+          <String>Contabilidad.DESC_ESTRUCTURA_COMERCIAL</String>
+          <String>Contabilidad.DESC_CENTRO_DE_COSTO</String>
           <String>EC.Canal</String>
           <String>EC.NombreCompleto</String>
           <String>EC.Cuidad</String>
@@ -379,33 +378,32 @@
           <String>$Field</String>
           <String>$Table</String>
           <String>$Info</String>
-          <String>Contabilidad.TRANSACTIONCURRENCYCODE</String>
-          <String>Contabilidad.TRIMESTRE</String>
-          <String>Contabilidad.VOUCHER</String>
-          <String>Contabilidad.JOURNALNUMBER</String>
-          <String>Contabilidad.SUBLEDGERVOUCHER</String>
-          <String>Contabilidad.SUBLEDGERVOUCHERDATAAREAID</String>
-          <String>Contabilidad.LAYER</String>
+          <String>Contabilidad.DESC_COLECCION</String>
+          <String>Contabilidad.DESC_FACTURA</String>
+          <String>Contabilidad.DESC_FLUJO_DE_EFECTIVO</String>
+          <String>Contabilidad.DESC_LINEA</String>
+          <String>Contabilidad.DESC_MAINACCOUNT</String>
+          <String>Contabilidad.DESC_MARCA</String>
+          <String>Contabilidad.DESC_PROYECTO</String>
+          <String>Contabilidad.DESC_SUBLINEA</String>
+          <String>Contabilidad.DESC_TIPO_DE_TIENDA</String>
           <String>Contabilidad.DIMENSION_COLECCION</String>
           <String>Contabilidad.DIMENSION_LINEA</String>
           <String>Contabilidad.DIMENSION_SUBLINEA</String>
-          <String>Contabilidad.DESC_MAINACCOUNT</String>
-          <String>Contabilidad.DESC_TIPO_DE_TIENDA</String>
-          <String>Contabilidad.DESC_TERCERO</String>
-          <String>Contabilidad.DESC_SUBLINEA</String>
-          <String>Contabilidad.DESC_PROYECTO</String>
-          <String>Contabilidad.DESC_MARCA</String>
-          <String>Contabilidad.DESC_LINEA</String>
-          <String>Contabilidad.DESC_FLUJO_DE_EFECTIVO</String>
-          <String>Contabilidad.DESC_ESTRUCTURA_COMERCIAL</String>
-          <String>Contabilidad.DESC_COLECCION</String>
-          <String>Contabilidad.DESC_CENTRO_DE_COSTO</String>
+          <String>Contabilidad.JOURNALNUMBER</String>
+          <String>Contabilidad.LAYER</String>
+          <String>Contabilidad.NOMBRE_AUXILIAR</String>
           <String>Contabilidad.NOMBRE_CUENTA_N1</String>
           <String>Contabilidad.NOMBRE_CUENTA_N2</String>
           <String>Contabilidad.NOMBRE_CUENTA_N3</String>
           <String>Contabilidad.NOMBRE_CUENTA_N4</String>
-          <String>Contabilidad.NOMBRE_AUXILIAR</String>
-          <String>Contabilidad.DESC_FACTURA</String>
+          <String>Contabilidad.SUBLEDGERVOUCHER</String>
+          <String>Contabilidad.SUBLEDGERVOUCHERDATAAREAID</String>
+          <String>Contabilidad.TRANSACTIONCURRENCYCODE</String>
+          <String>Contabilidad.VOUCHER</String>
+          <String>Contabilidad.TRIMESTRE</String>
+          <String>Contabilidad.DESC_ESTRUCTURA_COMERCIAL</String>
+          <String>Contabilidad.DESC_CENTRO_DE_COSTO</String>
           <String>EC.Canal</String>
           <String>EC.NombreCompleto</String>
           <String>EC.Cuidad</String>
@@ -421,34 +419,23 @@
           <String>$Rows</String>
           <String>$Fields</String>
           <String>$FieldNo</String>
-          <String>Contabilidad.TRANSACTIONCURRENCYAMOUNT</String>
           <String>Contabilidad.ACCOUNTINGCURRENCYAMOUNT</String>
-          <String>Contabilidad.REPORTINGCURRENCYAMOUNT</String>
           <String>Contabilidad.ACCOUNTINGDATE</String>
-          <String>Contabilidad.NOMMES</String>
-          <String>Contabilidad.DIA</String>
-          <String>Contabilidad.NOMDIA</String>
-          <String>Contabilidad.SEMANA</String>
           <String>Contabilidad.ANO</String>
-          <String>Contabilidad.MES</String>
-          <String>Contabilidad.LEDGER</String>
-          <String>Contabilidad.JOURNALCATEGORY</String>
-          <String>Contabilidad.LEDGERDIMENSION</String>
-          <String>Contabilidad.POSTINGLAYER</String>
-          <String>Contabilidad.POSTINGTYPE</String>
-          <String>Contabilidad.MAINACCOUNTID</String>
-          <String>Contabilidad.DIMENSION_MAINACCOUNT</String>
+          <String>Contabilidad.CREDITO</String>
           <String>Contabilidad.CUENTA_N1</String>
           <String>Contabilidad.CUENTA_N2</String>
           <String>Contabilidad.CUENTA_N3</String>
           <String>Contabilidad.CUENTA_N4</String>
-          <String>Contabilidad.CUENTA_N5</String>
           <String>Contabilidad.DEBITO</String>
-          <String>Contabilidad.CREDITO</String>
-          <String>Contabilidad.MOVIMIENTO</String>
-          <String>Contabilidad.ISCREDIT</String>
+          <String>Contabilidad.DIA</String>
           <String>Contabilidad.FECHAVENCIMIENTO</String>
-          <String>Contabilidad.TASA_CAMBIO</String>
+          <String>Contabilidad.MES</String>
+          <String>Contabilidad.MOVIMIENTO</String>
+          <String>Contabilidad.NOMDIA</String>
+          <String>Contabilidad.NOMMES</String>
+          <String>Contabilidad.POSTINGLAYER</String>
+          <String>Contabilidad.SEMANA</String>
           <String>EC.IdCanal</String>
           <String>EC.IdCoordinador</String>
         </FieldNames>
@@ -460,26 +447,18 @@
           <String>$Fields</String>
           <String>$FieldNo</String>
           <String>Contabilidad.ACCOUNTINGDATE</String>
-          <String>Contabilidad.NOMMES</String>
-          <String>Contabilidad.DIA</String>
-          <String>Contabilidad.NOMDIA</String>
-          <String>Contabilidad.SEMANA</String>
           <String>Contabilidad.ANO</String>
-          <String>Contabilidad.MES</String>
-          <String>Contabilidad.LEDGER</String>
-          <String>Contabilidad.JOURNALCATEGORY</String>
-          <String>Contabilidad.LEDGERDIMENSION</String>
-          <String>Contabilidad.POSTINGLAYER</String>
-          <String>Contabilidad.POSTINGTYPE</String>
-          <String>Contabilidad.MAINACCOUNTID</String>
-          <String>Contabilidad.DIMENSION_MAINACCOUNT</String>
           <String>Contabilidad.CUENTA_N1</String>
           <String>Contabilidad.CUENTA_N2</String>
           <String>Contabilidad.CUENTA_N3</String>
           <String>Contabilidad.CUENTA_N4</String>
-          <String>Contabilidad.CUENTA_N5</String>
-          <String>Contabilidad.ISCREDIT</String>
+          <String>Contabilidad.DIA</String>
           <String>Contabilidad.FECHAVENCIMIENTO</String>
+          <String>Contabilidad.MES</String>
+          <String>Contabilidad.NOMDIA</String>
+          <String>Contabilidad.NOMMES</String>
+          <String>Contabilidad.POSTINGLAYER</String>
+          <String>Contabilidad.SEMANA</String>
           <String>EC.IdCanal</String>
           <String>EC.IdCoordinador</String>
         </FieldNames>

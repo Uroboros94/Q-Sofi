@@ -4944,8 +4944,14 @@
         <ExcludeList>false</ExcludeList>
         <Pos>
           <DimName>EC.IdCanal</DimName>
-          <ElemNo></ElemNo>
-          <ElemValues></ElemValues>
+          <ElemNo>
+            <int>-2</int>
+          </ElemNo>
+          <ElemValues>
+            <Blob>
+                AA==
+            </Blob>
+          </ElemValues>
         </Pos>
       </ExpansionData>
     </ExpansionInfo>

@@ -1,5 +1,6 @@
 ﻿///$tab Main
-$(Must_Include=qvs.sofi.ax\tra.sofi.ax.full.script.qvs);
+/*Script*/
+$(Must_Include=qvs.sofi.ax\tra.sofi.ax.homologacion.script.qvs);
 ///$tab Exit script
 CALL Qvc.Cleanup;
 TRACE Transformación Terminada;

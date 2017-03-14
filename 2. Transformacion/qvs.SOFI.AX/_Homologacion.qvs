@@ -1,7 +1,11 @@
-///*Configuraciones*/
-	$(Must_Include=qvs.componentes.AX\qvc_runtime\qvc.qvs);
-	$(Must_Include=qvs.SOFI.AX\_Configuracion.qvs);
-
+﻿/******************************************************************************************************
+	  Detalle :
+		Modelo de Dimensiones: Homologación de Contabilidad
+	 -------------------------------------------------------------------------------------------------
+	 Fecha       |   Desarrollador   |   Modificación
+	 -------------------------------------------------------------------------------------------------
+	 09/03/2016  |   malemos         |   Inicio de Configuración
+*****************************************************************************************************/
 Mapping HomogacionPUC:
 	LOAD 
 		[CODIGO-UNOE], 
@@ -18,14 +22,70 @@ Mapping HomogacionCC:
 	[..\Fuentes\HOMOLOGACION.xls]
 	(biff, embedded labels, table is [CC UnoE Vs AX$]);
 
+Mapping EstructuraComer:
+	LOAD 
+		unoE, 
+		Codigo
+	FROM
+	[..\Fuentes\HOMOLOGACION.xls]
+	(biff, embedded labels, table is [ESTRUCTURAS COMERCIALES$]);
 
-Contabilidad:
+PlanCuentas:
+	LOAD Distinct
+		NOMBRE_CUENTA_N1,
+		NOMBRE_CUENTA_N2,
+		NOMBRE_CUENTA_N3,
+		NOMBRE_CUENTA_N4,
+		NOMBRE_CUENTA_N5,
+		CUENTA_N1,
+		CUENTA_N2,
+		CUENTA_N3,
+		CUENTA_N4,
+		CUENTA_N5
+	FROM
+	[$(vRutaOri)QST_Modelledgertrans.QVD]
+	(qvd);
+
+noConcatenate
+CentroCostos:
+	LOAD 
+		[CENTRO DE COSTO AX] 	as DIMENSION_CENTRO_DE_COSTO,
+		[DESCRIPCION 2]			as DESC_CENTRO_DE_COSTO
+	FROM
+	[..\Fuentes\HOMOLOGACION.xls]
+	(biff, embedded labels, table is [CC UnoE Vs AX$]);
+
+Contabilidad_Detallada:
+	LOAD
+		ANO,
+		CCOSTO_N8,
+		CREDITOS,
+		CUENTA_N8,
+		DEBITOS,
+		FECHA,
+		ID_AUXILIAR,
+		ID_CCOSTO,
+		ID_UN,
+		ID_CO,
+		ID_GRUPO_CCOSTO,
+		ID_MAYOR,
+		MES,
+		MOVIMIENTO,
+		NOMBRE_AUXILIAR,
+		NOMBRE_CCOSTO,
+		PARAMETRO_BIABLE,
+		TERCERO
+	FROM
+		[$(vRutaOriBiQuest)Contabilidad_Detallada.QVD]
+		(qvd);
+
+ContabilidadTemp:
 	LOAD 
 		ANO,
-		ApplyMap('HomogacionCC', CCOSTO_N8, 'No Homologa')		as HomologaCC, 
+		ApplyMap('HomogacionCC', CCOSTO_N8, 'No Homologa')		as DIMENSION_CENTRO_DE_COSTO, 
 		CCOSTO_N8, 
 		CREDITOS, 
-		ApplyMap('HomogacionPUC', CUENTA_N8, 'No Homologa')		as HomolagaCuenta, 
+		ApplyMap('HomogacionPUC', CUENTA_N8, 'No Homologa')		as CUENTA_N5, 
 		CUENTA_N8, 
 		DEBITOS, 
 		FECHA,
@@ -36,8 +96,8 @@ Contabilidad:
 		ApplyMap('Mapp.Desc.Trime', MES)						as TRIMESTRE, 
 		ID_AUXILIAR, 
 		ID_CCOSTO, 
-		ID_CO,
-		ID_CO													as SK.ID_CO, 
+		ID_UN&ID_CO 											as ID_CO,
+		ApplyMap('EstructuraComer', ID_UN&ID_CO, 'ID_UN&ID_CO')   as SK.ID_CO, 
 		ID_GRUPO_CCOSTO, 
 		ID_MAYOR, 
 		MES, 
@@ -48,55 +108,102 @@ Contabilidad:
 		TERCERO,
 		'Homologación UNOE' 									as VOUCHER, 
 		'Homologación UNOE' 									as FACTURAORIGEN, 
-		Date('12/12/1900')										as FECHAVENCIMIENTO
-	FROM
-	[$(vRutaOriBiQuest)Contabilidad_Detallada.QVD]
-	(qvd)
+		Date('12/12/2000')										as FECHAVENCIMIENTO
+	Resident Contabilidad_Detallada
 	WHERE ANO >= '2011';
-		//Capitalize (NOMBRE_CCOSTO_N2)				as NOMBRE_CCOSTO_N2, 
-		//CCOSTO_N1, 
-		//CCOSTO_N2, 
-		//CCOSTO_N3, 
-		//CCOSTO_N4, 
-		//CCOSTO_N5, 
-		//CCOSTO_N6, 
-		//CCOSTO_N7, 
-		//COMPAÑIA, 
-		//CREDITOS_ALT, 
-		//CUENTA_N1, 
-		//CUENTA_N2, 
-		//CUENTA_N3, 
-		//CUENTA_N4, 
-		//CUENTA_N5, 
-		//CUENTA_N6, 
-		//CUENTA_N7, 
-		//DEBITOS_ALT, 
-		//ID_PLAN_CUENTA, 
-		//ID_REGIONAL, 
-		//ID_UN, 
-		//MOVIMIENTO_ALT, 
-		//Capitalize (NOMBRE_CCOSTO_N3)				as NOMBRE_CCOSTO_N3, 
-		//Capitalize (NOMBRE_CCOSTO_N1)				as NOMBRE_CCOSTO_N1,
-		//Capitalize (NOMBRE_CCOSTO_N4)				as NOMBRE_CCOSTO_N4, 
-		//Capitalize (NOMBRE_CCOSTO_N5)				as NOMBRE_CCOSTO_N5, 
-		//Capitalize (NOMBRE_CCOSTO_N6)				as NOMBRE_CCOSTO_N6, 
-		//Capitalize (NOMBRE_CCOSTO_N7)				as NOMBRE_CCOSTO_N7, 
-		//Capitalize (NOMBRE_CCOSTO_N8)				as NOMBRE_CCOSTO_N8, 
-		//Capitalize (NOMBRE_CUENTA_N1)				as NOMBRE_CUENTA_N1, 
-		//Capitalize (NOMBRE_CUENTA_N2)				as NOMBRE_CUENTA_N2, 
-		//Capitalize (NOMBRE_CUENTA_N3)				as NOMBRE_CUENTA_N3, 
-		//Capitalize (NOMBRE_CUENTA_N4)				as NOMBRE_CUENTA_N4, 
-		//Capitalize (NOMBRE_CUENTA_N5)				as NOMBRE_CUENTA_N5, 
-		//Capitalize (NOMBRE_CUENTA_N6)				as NOMBRE_CUENTA_N6, 
-		//Capitalize (NOMBRE_CUENTA_N7)				as NOMBRE_CUENTA_N7, 
-		//Capitalize (NOMBRE_CUENTA_N8)				as NOMBRE_CUENTA_N8, 
-		//PERIODO, 
-		//PERIODOPDV, 
-		//SALDO_FINAL, 
-		//SALDO_FINAL_ALT, 
-		//SALDO_INICIAL, 
-		//SALDO_INICIAL_ALT, 
-		//SKPERIDO, 
-		//SKPERIDO									as SK.PERIODO,
-		//(PERIODO&ID_CO&CUENTA_N3)					as SK_PERIODO_CO,
-		//'REAL'										as REV,
+	DROP table Contabilidad_Detallada;
+
+	Left Join (ContabilidadTemp) LOAD
+		NOMBRE_CUENTA_N1,
+		NOMBRE_CUENTA_N2,
+		NOMBRE_CUENTA_N3,
+		NOMBRE_CUENTA_N4,
+		NOMBRE_CUENTA_N5,
+		CUENTA_N1,
+		CUENTA_N2,
+		CUENTA_N3,
+		CUENTA_N4,
+		CUENTA_N5
+	Resident PlanCuentas;
+	DROP table PlanCuentas;
+
+	//Left Join (ContabilidadTemp) LOAD
+	//	DIMENSION_CENTRO_DE_COSTO,
+	//	Capitalize(DESC_CENTRO_DE_COSTO) as DESC_CENTRO_DE_COSTO
+	//Resident CentroCostos;
+	DROP table CentroCostos;
+
+QUALIFY *;
+UNQUALIFY SK.ID_CO;
+	noConcatenate
+	Contabilidad:
+		LOAD
+			Num(MOVIMIENTO)					as ACCOUNTINGCURRENCYAMOUNT,
+			Date(FECHA,'DD/MM/YYYY')		as ACCOUNTINGDATE,
+			ANO								as ANO,
+			CREDITOS						as CREDITO,
+			CUENTA_N1						as CUENTA_N1,
+			CUENTA_N2						as CUENTA_N2,
+			CUENTA_N3						as CUENTA_N3,
+			CUENTA_N4						as CUENTA_N4,
+			CUENTA_N5						as CUENTA_N5,
+			DEBITOS 						as DEBITO,
+			//DESC_CENTRO_DE_COSTO			as DESC_CENTRO_DE_COSTO,
+			'Homologación UNOE'				as DESC_COLECCION,
+			'Homologación UNOE'				as DESC_FACTURA,
+			'Homologación UNOE'				as DESC_FLUJO_DE_EFECTIVO,
+			'Homologación UNOE'				as DESC_LINEA,
+			NOMBRE_CUENTA_N5 				as DESC_MAINACCOUNT,
+			'Homologación UNOE'				as DESC_MARCA, 
+			'Homologación UNOE'				as DESC_PROYECTO, 
+			'Homologación UNOE'				as DESC_SUBLINEA, 
+			TERCERO							as DESC_TERCERO, 
+			'Homologación UNOE'				as DESC_TIPO_DE_TIENDA,
+			DIA 							as DIA,
+			DIMENSION_CENTRO_DE_COSTO		as DIMENSION_CENTRO_DE_COSTO,
+			'Homologación UNOE'				as DIMENSION_COLECCION,
+			SK.ID_CO 						as DIMENSION_ESTRUCTURA_COMERCIAL,
+			'Homologación UNOE' 			as DIMENSION_FLUJO_DE_EFECTIVO, 
+			'Homologación UNOE' 			as DIMENSION_LINEA, 
+			CUENTA_N5 			 			as DIMENSION_MAINACCOUNT, 
+			'Homologación UNOE' 			as DIMENSION_MARCA, 
+			'Homologación UNOE' 			as DIMENSION_PROYECTO, 
+			'Homologación UNOE' 			as DIMENSION_SUBLINEA, 
+			'Homologación UNOE' 			as DIMENSION_TERCERO, 
+			'Homologación UNOE' 			as DIMENSION_TIPO_DE_TIENDA, 
+			FACTURAORIGEN					as FACTURAORIGEN,
+			FECHAVENCIMIENTO				as FECHAVENCIMIENTO,
+			'Homologación UNOE' 			as ISCREDIT, 
+			'Homologación UNOE' 			as JOURNALCATEGORY, 
+			'Homologación UNOE' 			as JOURNALNUMBER, 
+			'Actual'						as LAYER,
+			'Homologación UNOE'				as LEDGER, 
+			'Homologación UNOE'				as LEDGERACCOUNT, 
+			'Homologación UNOE'				as LEDGERDIMENSION, 
+			CUENTA_N5 						as MAINACCOUNTID,
+			MES								as MES,
+			MOVIMIENTO						as MOVIMIENTO,
+			NOMBRE_CUENTA_N5 				as NOMBRE_AUXILIAR, 
+			NOMBRE_CUENTA_N1				as NOMBRE_CUENTA_N1,
+			NOMBRE_CUENTA_N2				as NOMBRE_CUENTA_N2,
+			NOMBRE_CUENTA_N3				as NOMBRE_CUENTA_N3,
+			NOMBRE_CUENTA_N4				as NOMBRE_CUENTA_N4,
+			NOMDIA							as NOMDIA,
+			NOMMES							as NOMMES,
+			1								as POSTINGLAYER,
+			'Homologación UNOE' 			as POSTINGTYPE, 
+			'Homologación UNOE' 			as REPORTINGCURRENCYAMOUNT, 
+			SEMANA 							as SEMANA, 
+			'Homologación UNOE' 			as SUBLEDGERVOUCHER, 
+			'Homologación UNOE' 			as SUBLEDGERVOUCHERDATAAREAID, 
+			'Homologación UNOE' 			as TASA_CAMBIO,
+			'Homologación UNOE' 			as TRANSACTIONCURRENCYAMOUNT, 
+			'Homologación UNOE' 			as TRANSACTIONCURRENCYCODE,
+			VOUCHER							as VOUCHER,
+			SK.ID_CO 						as SK.ID_CO
+		Resident ContabilidadTemp;
+UNQUALIFY *;
+DROP table ContabilidadTemp;
+
+STORE Contabilidad INTO [$(vRutaTra)_Contabilidad.Hom.QVD](qvd);
+Drop Table Contabilidad;

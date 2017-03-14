@@ -8,6 +8,8 @@
 	 08/03/2017		|	malemos			|	Carga de QVD transformado
 *****************************************************************************************************/
 Contabilidad:
+	LOAD * FROM [$(vRutaTra)_Contabilidad.Hom.QVD](qvd);
+	Concatenate
 	LOAD 
 		SK.ID_CO, 
 		Contabilidad.LEDGERACCOUNT, 

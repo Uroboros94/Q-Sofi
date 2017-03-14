@@ -7281,8 +7281,8 @@
     </DefaultExprCellVariations>
     <StraightShowOthers>false</StraightShowOthers>
     <InterFieldSortOrder>
-      <int>0</int>
       <int>1</int>
+      <int>0</int>
       <int>2</int>
       <int>3</int>
       <int>4</int>
@@ -7737,7 +7737,7 @@
                 <Alpha>255</Alpha>
               </TestTubeColor>
             </GaugeSettings>
-            <ColWidth>63</ColWidth>
+            <ColWidth>100</ColWidth>
             <ShowAsPopup>false</ShowAsPopup>
             <Searchable>false</Searchable>
             <LineMode>LINEMODE_STRAIGHT</LineMode>
@@ -8337,7 +8337,7 @@
                 <Alpha>255</Alpha>
               </TestTubeColor>
             </GaugeSettings>
-            <ColWidth>425</ColWidth>
+            <ColWidth>388</ColWidth>
             <ShowAsPopup>false</ShowAsPopup>
             <Searchable>false</Searchable>
             <LineMode>LINEMODE_STRAIGHT</LineMode>
@@ -10116,7 +10116,7 @@
                 <Alpha>255</Alpha>
               </TestTubeColor>
             </GaugeSettings>
-            <ColWidth>231</ColWidth>
+            <ColWidth>322</ColWidth>
             <ShowAsPopup>false</ShowAsPopup>
             <Searchable>false</Searchable>
             <LineMode>LINEMODE_STRAIGHT</LineMode>
@@ -10706,7 +10706,7 @@
                 <Alpha>255</Alpha>
               </TestTubeColor>
             </GaugeSettings>
-            <ColWidth>300</ColWidth>
+            <ColWidth>159</ColWidth>
             <ShowAsPopup>false</ShowAsPopup>
             <Searchable>false</Searchable>
             <LineMode>LINEMODE_STRAIGHT</LineMode>

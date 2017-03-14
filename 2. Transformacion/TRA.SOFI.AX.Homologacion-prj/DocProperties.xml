@@ -775,10 +775,10 @@
       <DayNames>
         <String>Lun</String>
         <String>Mar</String>
-        <String>Mié</String>
+        <String>MiÃ©</String>
         <String>Jue</String>
         <String>Vie</String>
-        <String>Sáb</String>
+        <String>SÃ¡b</String>
         <String>Dom</String>
       </DayNames>
       <MonthNames>
@@ -798,10 +798,10 @@
       <LongDayNames>
         <String>Lunes</String>
         <String>Martes</String>
-        <String>Miércoles</String>
+        <String>MiÃ©rcoles</String>
         <String>Jueves</String>
         <String>Viernes</String>
-        <String>Sábado</String>
+        <String>SÃ¡bado</String>
         <String>Domingo</String>
       </LongDayNames>
       <LongMonthNames>
@@ -1287,10 +1287,10 @@
   <Extensions></Extensions>
   <ExtensionDescriptions></ExtensionDescriptions>
   <AllowServerAnnotation>true</AllowServerAnnotation>
-  <LastReloadTimeAsISOString>2017-03-08T20:36:13.074Z</LastReloadTimeAsISOString>
+  <LastReloadTimeAsISOString>2017-03-14T21:11:58.372Z</LastReloadTimeAsISOString>
   <AppProperties>
     <Title></Title>
-    <LastReloadTime>2017-03-08T20:36:13.074Z</LastReloadTime>
+    <LastReloadTime>2017-03-14T21:11:58.372Z</LastReloadTime>
     <MigrationHash></MigrationHash>
     <SavedInProductVersion></SavedInProductVersion>
     <Thumbnail></Thumbnail>

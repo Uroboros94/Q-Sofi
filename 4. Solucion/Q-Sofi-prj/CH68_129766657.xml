@@ -592,9 +592,9 @@
             <LineStyle>32</LineStyle>
             <Color>
               <Col>
-                <Red>0</Red>
-                <Green>0</Green>
-                <Blue>160</Blue>
+                <Red>220</Red>
+                <Green>220</Green>
+                <Blue>220</Blue>
                 <Alpha>255</Alpha>
               </Col>
               <IsCalculated>false</IsCalculated>
@@ -629,10 +629,10 @@
           <TotalFgColor></TotalFgColor>
           <TotalBgColor>
             <Col>
-              <Red>68</Red>
-              <Green>114</Green>
-              <Blue>196</Blue>
-              <Alpha>80</Alpha>
+              <Red>245</Red>
+              <Green>245</Green>
+              <Blue>245</Blue>
+              <Alpha>255</Alpha>
             </Col>
             <IsCalculated>false</IsCalculated>
             <ColorExpr></ColorExpr>
@@ -1077,9 +1077,9 @@
             <LineStyle>32</LineStyle>
             <Color>
               <Col>
-                <Red>0</Red>
-                <Green>0</Green>
-                <Blue>160</Blue>
+                <Red>220</Red>
+                <Green>220</Green>
+                <Blue>220</Blue>
                 <Alpha>255</Alpha>
               </Col>
               <IsCalculated>false</IsCalculated>
@@ -1114,10 +1114,10 @@
           <TotalFgColor></TotalFgColor>
           <TotalBgColor>
             <Col>
-              <Red>68</Red>
-              <Green>114</Green>
-              <Blue>196</Blue>
-              <Alpha>80</Alpha>
+              <Red>245</Red>
+              <Green>245</Green>
+              <Blue>245</Blue>
+              <Alpha>255</Alpha>
             </Col>
             <IsCalculated>false</IsCalculated>
             <ColorExpr></ColorExpr>
@@ -1562,9 +1562,9 @@
             <LineStyle>32</LineStyle>
             <Color>
               <Col>
-                <Red>0</Red>
-                <Green>0</Green>
-                <Blue>160</Blue>
+                <Red>220</Red>
+                <Green>220</Green>
+                <Blue>220</Blue>
                 <Alpha>255</Alpha>
               </Col>
               <IsCalculated>false</IsCalculated>
@@ -1599,10 +1599,10 @@
           <TotalFgColor></TotalFgColor>
           <TotalBgColor>
             <Col>
-              <Red>68</Red>
-              <Green>114</Green>
-              <Blue>196</Blue>
-              <Alpha>80</Alpha>
+              <Red>245</Red>
+              <Green>245</Green>
+              <Blue>245</Blue>
+              <Alpha>255</Alpha>
             </Col>
             <IsCalculated>false</IsCalculated>
             <ColorExpr></ColorExpr>
@@ -2047,9 +2047,9 @@
             <LineStyle>32</LineStyle>
             <Color>
               <Col>
-                <Red>0</Red>
-                <Green>0</Green>
-                <Blue>160</Blue>
+                <Red>220</Red>
+                <Green>220</Green>
+                <Blue>220</Blue>
                 <Alpha>255</Alpha>
               </Col>
               <IsCalculated>false</IsCalculated>
@@ -2084,10 +2084,10 @@
           <TotalFgColor></TotalFgColor>
           <TotalBgColor>
             <Col>
-              <Red>68</Red>
-              <Green>114</Green>
-              <Blue>196</Blue>
-              <Alpha>80</Alpha>
+              <Red>245</Red>
+              <Green>245</Green>
+              <Blue>245</Blue>
+              <Alpha>255</Alpha>
             </Col>
             <IsCalculated>false</IsCalculated>
             <ColorExpr></ColorExpr>
@@ -2532,9 +2532,9 @@
             <LineStyle>32</LineStyle>
             <Color>
               <Col>
-                <Red>0</Red>
-                <Green>0</Green>
-                <Blue>160</Blue>
+                <Red>220</Red>
+                <Green>220</Green>
+                <Blue>220</Blue>
                 <Alpha>255</Alpha>
               </Col>
               <IsCalculated>false</IsCalculated>
@@ -2569,10 +2569,10 @@
           <TotalFgColor></TotalFgColor>
           <TotalBgColor>
             <Col>
-              <Red>68</Red>
-              <Green>114</Green>
-              <Blue>196</Blue>
-              <Alpha>80</Alpha>
+              <Red>245</Red>
+              <Green>245</Green>
+              <Blue>245</Blue>
+              <Alpha>255</Alpha>
             </Col>
             <IsCalculated>false</IsCalculated>
             <ColorExpr></ColorExpr>
@@ -3017,9 +3017,9 @@
             <LineStyle>32</LineStyle>
             <Color>
               <Col>
-                <Red>0</Red>
-                <Green>0</Green>
-                <Blue>160</Blue>
+                <Red>220</Red>
+                <Green>220</Green>
+                <Blue>220</Blue>
                 <Alpha>255</Alpha>
               </Col>
               <IsCalculated>false</IsCalculated>
@@ -3054,10 +3054,10 @@
           <TotalFgColor></TotalFgColor>
           <TotalBgColor>
             <Col>
-              <Red>68</Red>
-              <Green>114</Green>
-              <Blue>196</Blue>
-              <Alpha>80</Alpha>
+              <Red>245</Red>
+              <Green>245</Green>
+              <Blue>245</Blue>
+              <Alpha>255</Alpha>
             </Col>
             <IsCalculated>false</IsCalculated>
             <ColorExpr></ColorExpr>
@@ -3502,9 +3502,9 @@
             <LineStyle>32</LineStyle>
             <Color>
               <Col>
-                <Red>0</Red>
-                <Green>0</Green>
-                <Blue>160</Blue>
+                <Red>220</Red>
+                <Green>220</Green>
+                <Blue>220</Blue>
                 <Alpha>255</Alpha>
               </Col>
               <IsCalculated>false</IsCalculated>
@@ -3539,10 +3539,10 @@
           <TotalFgColor></TotalFgColor>
           <TotalBgColor>
             <Col>
-              <Red>68</Red>
-              <Green>114</Green>
-              <Blue>196</Blue>
-              <Alpha>80</Alpha>
+              <Red>245</Red>
+              <Green>245</Green>
+              <Blue>245</Blue>
+              <Alpha>255</Alpha>
             </Col>
             <IsCalculated>false</IsCalculated>
             <ColorExpr></ColorExpr>
