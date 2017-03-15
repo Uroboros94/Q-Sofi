@@ -29,7 +29,7 @@ DescCapas:
 		Num([Id del Enum])		as Id,
 		Capitalize(Descripción)	as Descripción
 	FROM
-	[..\Fuentes\DescEnumAX.xlsx]
+	[$(vRutaFuentes)DescEnumAX.xlsx]
 	(ooxml, embedded labels, table is [Capa de Registro]);
 
 NullMapTemp:

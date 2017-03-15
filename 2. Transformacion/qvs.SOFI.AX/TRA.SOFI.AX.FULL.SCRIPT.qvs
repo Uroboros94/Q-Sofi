@@ -22,6 +22,8 @@
 	SET vRutaTra = '..\QVD\AX\TRA\';
 	SET vRutaOriBiQuest = '..\QVD\BIQUEST\ORI\';
 	SET vRutaOriPLM = '..\QVD\PLM\ORI\';
+	
+	
 
 ///*Configuraciones*/
 	$(Must_Include=qvs.componentes.AX\qvc_runtime\qvc.qvs);

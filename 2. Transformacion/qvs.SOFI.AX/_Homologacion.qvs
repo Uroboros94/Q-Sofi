@@ -11,7 +11,7 @@ Mapping HomogacionPUC:
 		[CODIGO-UNOE], 
 		[CODIGO-AX]
 	FROM
-	[..\Fuentes\HOMOLOGACION.xls]
+	[$(vRutaFuentes)HOMOLOGACION.xls]
 	(biff, embedded labels, table is [PUC UNOE VS AX NUEVO 6 OCT$]);
 
 Mapping HomogacionCC:
@@ -19,7 +19,7 @@ Mapping HomogacionCC:
 		[CENTRO DE COSTO UNOE], 
 		[CENTRO DE COSTO AX]
 	FROM
-	[..\Fuentes\HOMOLOGACION.xls]
+	[$(vRutaFuentes)HOMOLOGACION.xls]
 	(biff, embedded labels, table is [CC UnoE Vs AX$]);
 
 Mapping EstructuraComer:
@@ -27,8 +27,15 @@ Mapping EstructuraComer:
 		unoE, 
 		Codigo
 	FROM
-	[..\Fuentes\HOMOLOGACION.xls]
+	[$(vRutaFuentes)HOMOLOGACION.xls]
 	(biff, embedded labels, table is [ESTRUCTURAS COMERCIALES$]);
+
+Mapping Terceros:
+	LOAD Distinct	
+		ID,
+		RAZON_SOCIAL
+	FROM
+	[$(vRutaOriBiQuest)Terceros.QVD](qvd);
 
 PlanCuentas:
 	LOAD Distinct
@@ -52,7 +59,7 @@ CentroCostos:
 		[CENTRO DE COSTO AX] 	as DIMENSION_CENTRO_DE_COSTO,
 		[DESCRIPCION 2]			as DESC_CENTRO_DE_COSTO
 	FROM
-	[..\Fuentes\HOMOLOGACION.xls]
+	[$(vRutaFuentes)HOMOLOGACION.xls]
 	(biff, embedded labels, table is [CC UnoE Vs AX$]);
 
 Contabilidad_Detallada:
@@ -105,7 +112,8 @@ ContabilidadTemp:
 		Capitalize (NOMBRE_AUXILIAR)							as NOMBRE_AUXILIAR, 
 		Capitalize (NOMBRE_CCOSTO)								as NOMBRE_CCOSTO, 
 		PARAMETRO_BIABLE, 
-		TERCERO,
+		TERCERO 												as DIMENSION_TERCERO,
+		ApplyMap('Terceros', Trim(TERCERO), 'No Aplica')				as DESC_TERCERO,
 		'Homologación UNOE' 									as VOUCHER, 
 		'Homologación UNOE' 									as FACTURAORIGEN, 
 		Date('12/12/2000')										as FECHAVENCIMIENTO
@@ -157,7 +165,7 @@ UNQUALIFY SK.ID_CO;
 			'Homologación UNOE'				as DESC_MARCA, 
 			'Homologación UNOE'				as DESC_PROYECTO, 
 			'Homologación UNOE'				as DESC_SUBLINEA, 
-			TERCERO							as DESC_TERCERO, 
+			DESC_TERCERO					as DESC_TERCERO, 
 			'Homologación UNOE'				as DESC_TIPO_DE_TIENDA,
 			DIA 							as DIA,
 			DIMENSION_CENTRO_DE_COSTO		as DIMENSION_CENTRO_DE_COSTO,
@@ -169,8 +177,8 @@ UNQUALIFY SK.ID_CO;
 			'Homologación UNOE' 			as DIMENSION_MARCA, 
 			'Homologación UNOE' 			as DIMENSION_PROYECTO, 
 			'Homologación UNOE' 			as DIMENSION_SUBLINEA, 
-			'Homologación UNOE' 			as DIMENSION_TERCERO, 
-			'Homologación UNOE' 			as DIMENSION_TIPO_DE_TIENDA, 
+			DIMENSION_TERCERO 				as DIMENSION_TERCERO, 
+			'Homologación UNOE'	 			as DIMENSION_TIPO_DE_TIENDA, 
 			FACTURAORIGEN					as FACTURAORIGEN,
 			FECHAVENCIMIENTO				as FECHAVENCIMIENTO,
 			'Homologación UNOE' 			as ISCREDIT, 
