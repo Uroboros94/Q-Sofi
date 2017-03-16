@@ -1,0 +1,6 @@
+﻿///$tab Main
+$(Must_Include=qvs.sofi.ax\TRA.SOFI.AX.DIARIO.SCRIPT.qvs);
+///$tab Exit script
+CALL Qvc.Cleanup;
+TRACE Transformación Terminada;
+EXIT SCRIPT;
