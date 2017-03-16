@@ -23,7 +23,7 @@
 
 /*Hechos*/
 	/*Contabilidad*/
-	$(Must_Include=qvs.axfinanciero\contabilidad.qvs);
+	$(Must_Include=qvs.ax.financiero\contabilidad.qvs);
 
 /*Dimensiones*/
 	/*Maestro de Estrucutura comerciales*/

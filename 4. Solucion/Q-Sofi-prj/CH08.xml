@@ -645,9 +645,9 @@
             <LineStyle>32</LineStyle>
             <Color>
               <Col>
-                <Red>220</Red>
-                <Green>220</Green>
-                <Blue>220</Blue>
+                <Red>0</Red>
+                <Green>0</Green>
+                <Blue>160</Blue>
                 <Alpha>255</Alpha>
               </Col>
               <IsCalculated>false</IsCalculated>
@@ -682,10 +682,10 @@
           <TotalFgColor></TotalFgColor>
           <TotalBgColor>
             <Col>
-              <Red>245</Red>
-              <Green>245</Green>
-              <Blue>245</Blue>
-              <Alpha>255</Alpha>
+              <Red>68</Red>
+              <Green>114</Green>
+              <Blue>196</Blue>
+              <Alpha>80</Alpha>
             </Col>
             <IsCalculated>false</IsCalculated>
             <ColorExpr></ColorExpr>
@@ -826,7 +826,7 @@
           <Alpha>255</Alpha>
         </TestTubeColor>
       </GaugeSettings>
-      <ColWidth>63</ColWidth>
+      <ColWidth>100</ColWidth>
       <ShowAsPopup>false</ShowAsPopup>
       <Searchable>false</Searchable>
       <LineMode>LINEMODE_STRAIGHT</LineMode>
@@ -1130,9 +1130,9 @@
             <LineStyle>32</LineStyle>
             <Color>
               <Col>
-                <Red>220</Red>
-                <Green>220</Green>
-                <Blue>220</Blue>
+                <Red>0</Red>
+                <Green>0</Green>
+                <Blue>160</Blue>
                 <Alpha>255</Alpha>
               </Col>
               <IsCalculated>false</IsCalculated>
@@ -1167,10 +1167,10 @@
           <TotalFgColor></TotalFgColor>
           <TotalBgColor>
             <Col>
-              <Red>245</Red>
-              <Green>245</Green>
-              <Blue>245</Blue>
-              <Alpha>255</Alpha>
+              <Red>68</Red>
+              <Green>114</Green>
+              <Blue>196</Blue>
+              <Alpha>80</Alpha>
             </Col>
             <IsCalculated>false</IsCalculated>
             <ColorExpr></ColorExpr>
@@ -2557,9 +2557,9 @@
             <LineStyle>32</LineStyle>
             <Color>
               <Col>
-                <Red>220</Red>
-                <Green>220</Green>
-                <Blue>220</Blue>
+                <Red>0</Red>
+                <Green>0</Green>
+                <Blue>160</Blue>
                 <Alpha>255</Alpha>
               </Col>
               <IsCalculated>false</IsCalculated>
@@ -2594,10 +2594,10 @@
           <TotalFgColor></TotalFgColor>
           <TotalBgColor>
             <Col>
-              <Red>245</Red>
-              <Green>245</Green>
-              <Blue>245</Blue>
-              <Alpha>255</Alpha>
+              <Red>68</Red>
+              <Green>114</Green>
+              <Blue>196</Blue>
+              <Alpha>80</Alpha>
             </Col>
             <IsCalculated>false</IsCalculated>
             <ColorExpr></ColorExpr>
@@ -3042,9 +3042,9 @@
             <LineStyle>32</LineStyle>
             <Color>
               <Col>
-                <Red>220</Red>
-                <Green>220</Green>
-                <Blue>220</Blue>
+                <Red>0</Red>
+                <Green>0</Green>
+                <Blue>160</Blue>
                 <Alpha>255</Alpha>
               </Col>
               <IsCalculated>false</IsCalculated>
@@ -3079,10 +3079,10 @@
           <TotalFgColor></TotalFgColor>
           <TotalBgColor>
             <Col>
-              <Red>245</Red>
-              <Green>245</Green>
-              <Blue>245</Blue>
-              <Alpha>255</Alpha>
+              <Red>68</Red>
+              <Green>114</Green>
+              <Blue>196</Blue>
+              <Alpha>80</Alpha>
             </Col>
             <IsCalculated>false</IsCalculated>
             <ColorExpr></ColorExpr>
@@ -3527,9 +3527,9 @@
             <LineStyle>32</LineStyle>
             <Color>
               <Col>
-                <Red>220</Red>
-                <Green>220</Green>
-                <Blue>220</Blue>
+                <Red>0</Red>
+                <Green>0</Green>
+                <Blue>160</Blue>
                 <Alpha>255</Alpha>
               </Col>
               <IsCalculated>false</IsCalculated>
@@ -3564,10 +3564,10 @@
           <TotalFgColor></TotalFgColor>
           <TotalBgColor>
             <Col>
-              <Red>245</Red>
-              <Green>245</Green>
-              <Blue>245</Blue>
-              <Alpha>255</Alpha>
+              <Red>68</Red>
+              <Green>114</Green>
+              <Blue>196</Blue>
+              <Alpha>80</Alpha>
             </Col>
             <IsCalculated>false</IsCalculated>
             <ColorExpr></ColorExpr>
@@ -6765,7 +6765,7 @@
     <VerticalLabels>false</VerticalLabels>
     <ColWidths>
       <int>697</int>
-      <int>63</int>
+      <int>100</int>
       <int>313</int>
       <int>341</int>
       <int>322</int>

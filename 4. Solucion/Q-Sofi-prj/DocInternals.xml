@@ -439,6 +439,7 @@
           <String>Contabilidad.DESC_MARCA</String>
           <String>Contabilidad.DESC_PROYECTO</String>
           <String>Contabilidad.DESC_SUBLINEA</String>
+          <String>Contabilidad.DESC_TERCERO</String>
           <String>Contabilidad.DESC_TIPO_DE_TIENDA</String>
           <String>Contabilidad.DIMENSION_COLECCION</String>
           <String>Contabilidad.DIMENSION_LINEA</String>
@@ -481,6 +482,7 @@
           <String>Contabilidad.DESC_MARCA</String>
           <String>Contabilidad.DESC_PROYECTO</String>
           <String>Contabilidad.DESC_SUBLINEA</String>
+          <String>Contabilidad.DESC_TERCERO</String>
           <String>Contabilidad.DESC_TIPO_DE_TIENDA</String>
           <String>Contabilidad.DIMENSION_COLECCION</String>
           <String>Contabilidad.DIMENSION_LINEA</String>

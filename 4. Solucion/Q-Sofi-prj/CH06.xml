@@ -49,7 +49,7 @@
       <Name>
         <v> </v>
       </Name>
-      <Detached>true</Detached>
+      <Detached>false</Detached>
       <AllowMinimize>true</AllowMinimize>
       <AutoMinimize>false</AutoMinimize>
       <AllowMaximize>false</AllowMaximize>
@@ -5306,7 +5306,7 @@
   </PrintSettings>
   <DoctorSpecial>0</DoctorSpecial>
   <DoctorMapField></DoctorMapField>
-  <Detached>true</Detached>
+  <Detached>false</Detached>
   <CubeData></CubeData>
   <SuppressZero>true</SuppressZero>
   <SuppressMissing>true</SuppressMissing>
