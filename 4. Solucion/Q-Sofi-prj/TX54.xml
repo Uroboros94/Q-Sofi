@@ -584,7 +584,11 @@
     </Bmp>
     <BkgAlpha>255</BkgAlpha>
     <Text>
-      <v>=Money ((sum({&lt;Contabilidad.CUENTA_N2 = {'11'} , Contabilidad.FECHA = {$(vMesMayorSeleccion)}&gt;}Contabilidad.SALDO_FINAL)),'$ #,##0', '.' , ',') &amp;' Efectivo'</v>
+      <v>=Money(
+	sum({&lt;
+		Contabilidad.CUENTA_N2 = {'11'},
+		Contabilidad.ACCOUNTINGDATE = {$(vMesMayorSeleccion)}&gt;}Contabilidad.MOVIMIENTO)
+	,'$ #,##0', '.' , ',') &amp;' Efectivo'</v>
     </Text>
     <ImageRepresentation></ImageRepresentation>
     <AllowVerticalScrollBar>false</AllowVerticalScrollBar>

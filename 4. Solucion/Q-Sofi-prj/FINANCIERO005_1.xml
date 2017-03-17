@@ -4,15 +4,15 @@
       <BorderWidth>4</BorderWidth>
       <BorderEffect>FLAT</BorderEffect>
       <Color>
-        <Mode>COLORAREA_SINGLE_COLOR</Mode>
-        <Luminosity>85</Luminosity>
+        <Mode>COLORAREA_SOLID</Mode>
+        <Luminosity>178</Luminosity>
         <FillDirection>COLORAREA_HORZ</FillDirection>
         <FillPattern>COLORAREA_PATTERN1</FillPattern>
         <PrimaryCol>
           <Col>
             <Red>255</Red>
-            <Green>0</Green>
-            <Blue>0</Blue>
+            <Green>136</Green>
+            <Blue>135</Blue>
             <Alpha>255</Alpha>
           </Col>
           <IsCalculated>false</IsCalculated>
@@ -28,10 +28,10 @@
           <IsCalculated>false</IsCalculated>
           <ColorExpr></ColorExpr>
         </SecondaryCol>
-        <Alpha>120</Alpha>
+        <Alpha>255</Alpha>
       </Color>
       <Font>
-        <FontName>Tahoma</FontName>
+        <FontName>Calibri</FontName>
         <PointSize1000>8000</PointSize1000>
         <Underline>false</Underline>
         <Bold>false</Bold>
@@ -39,8 +39,8 @@
         <DropShadow>false</DropShadow>
       </Font>
       <CaptionFont>
-        <FontName>Tahoma</FontName>
-        <PointSize1000>8000</PointSize1000>
+        <FontName>Calibri</FontName>
+        <PointSize1000>9000</PointSize1000>
         <Underline>false</Underline>
         <Bold>true</Bold>
         <Italic>false</Italic>
@@ -71,14 +71,14 @@
       <MultiLine>2</MultiLine>
       <ActiveBgColor>
         <Mode>COLORAREA_SINGLE_COLOR</Mode>
-        <Luminosity>85</Luminosity>
+        <Luminosity>150</Luminosity>
         <FillDirection>COLORAREA_HORZ</FillDirection>
         <FillPattern>COLORAREA_PATTERN2</FillPattern>
         <PrimaryCol>
           <Col>
-            <Red>255</Red>
-            <Green>0</Green>
-            <Blue>0</Blue>
+            <Red>178</Red>
+            <Green>47</Green>
+            <Blue>46</Blue>
             <Alpha>255</Alpha>
           </Col>
           <IsCalculated>false</IsCalculated>
@@ -94,18 +94,18 @@
           <IsCalculated>false</IsCalculated>
           <ColorExpr></ColorExpr>
         </SecondaryCol>
-        <Alpha>165</Alpha>
+        <Alpha>255</Alpha>
       </ActiveBgColor>
       <BgColor>
         <Mode>COLORAREA_SINGLE_COLOR</Mode>
-        <Luminosity>85</Luminosity>
+        <Luminosity>153</Luminosity>
         <FillDirection>COLORAREA_HORZ</FillDirection>
         <FillPattern>COLORAREA_PATTERN1</FillPattern>
         <PrimaryCol>
           <Col>
             <Red>255</Red>
-            <Green>0</Green>
-            <Blue>0</Blue>
+            <Green>136</Green>
+            <Blue>135</Blue>
             <Alpha>255</Alpha>
           </Col>
           <IsCalculated>false</IsCalculated>
@@ -121,7 +121,7 @@
           <IsCalculated>false</IsCalculated>
           <ColorExpr></ColorExpr>
         </SecondaryCol>
-        <Alpha>120</Alpha>
+        <Alpha>255</Alpha>
       </BgColor>
       <ActiveFgColor>
         <Mode>COLORAREA_SOLID</Mode>
@@ -199,7 +199,7 @@
         <IsCalculated>false</IsCalculated>
         <ColorExpr></ColorExpr>
       </ScrollButtonColor>
-      <ScrollStyle>SCROLL_SIX</ScrollStyle>
+      <ScrollStyle>SCROLL_LIGHT</ScrollStyle>
       <ScrollWidth>20</ScrollWidth>
       <AllowModify>true</AllowModify>
       <CopyImageIcon>false</CopyImageIcon>
@@ -443,9 +443,9 @@
             <LineStyle>32</LineStyle>
             <Color>
               <Col>
-                <Red>0</Red>
-                <Green>0</Green>
-                <Blue>160</Blue>
+                <Red>27</Red>
+                <Green>134</Green>
+                <Blue>204</Blue>
                 <Alpha>255</Alpha>
               </Col>
               <IsCalculated>false</IsCalculated>
@@ -833,9 +833,9 @@
             <LineStyle>32</LineStyle>
             <Color>
               <Col>
-                <Red>0</Red>
-                <Green>0</Green>
-                <Blue>160</Blue>
+                <Red>27</Red>
+                <Green>134</Green>
+                <Blue>204</Blue>
                 <Alpha>255</Alpha>
               </Col>
               <IsCalculated>false</IsCalculated>
@@ -1019,9 +1019,9 @@
             <LineStyle>32</LineStyle>
             <Color>
               <Col>
-                <Red>0</Red>
-                <Green>0</Green>
-                <Blue>160</Blue>
+                <Red>27</Red>
+                <Green>134</Green>
+                <Blue>204</Blue>
                 <Alpha>255</Alpha>
               </Col>
               <IsCalculated>false</IsCalculated>
@@ -2381,9 +2381,9 @@
       </FgColor>
       <BgColor>
         <Col>
-          <Red>68</Red>
-          <Green>114</Green>
-          <Blue>196</Blue>
+          <Red>27</Red>
+          <Green>134</Green>
+          <Blue>204</Blue>
           <Alpha>255</Alpha>
         </Col>
         <IsCalculated>false</IsCalculated>
@@ -2433,9 +2433,9 @@
         <LineStyle>32</LineStyle>
         <Color>
           <Col>
-            <Red>220</Red>
-            <Green>220</Green>
-            <Blue>220</Blue>
+            <Red>27</Red>
+            <Green>134</Green>
+            <Blue>204</Blue>
             <Alpha>255</Alpha>
           </Col>
           <IsCalculated>false</IsCalculated>
@@ -2486,14 +2486,14 @@
         <ExtraBorderSpace16>0</ExtraBorderSpace16>
       </PostTotalBorder>
       <SizeMod>0</SizeMod>
-      <StyleMod>FONTSTYLE_REGULAR</StyleMod>
+      <StyleMod>FONTSTYLE_BOLD</StyleMod>
       <TotalSizeMod>0</TotalSizeMod>
       <TotalStyleMod>FONTSTYLE_BOLD</TotalStyleMod>
       <FgColor>
         <Col>
-          <Red>54</Red>
-          <Green>54</Green>
-          <Blue>54</Blue>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
           <Alpha>255</Alpha>
         </Col>
         <IsCalculated>false</IsCalculated>
@@ -2501,9 +2501,9 @@
       </FgColor>
       <BgColor>
         <Col>
-          <Red>255</Red>
-          <Green>255</Green>
-          <Blue>255</Blue>
+          <Red>27</Red>
+          <Green>134</Green>
+          <Blue>204</Blue>
           <Alpha>255</Alpha>
         </Col>
         <IsCalculated>false</IsCalculated>
@@ -3054,9 +3054,9 @@
                   <LineStyle>32</LineStyle>
                   <Color>
                     <Col>
-                      <Red>0</Red>
-                      <Green>0</Green>
-                      <Blue>160</Blue>
+                      <Red>27</Red>
+                      <Green>134</Green>
+                      <Blue>204</Blue>
                       <Alpha>255</Alpha>
                     </Col>
                     <IsCalculated>false</IsCalculated>

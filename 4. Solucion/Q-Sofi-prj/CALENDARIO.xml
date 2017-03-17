@@ -3,15 +3,15 @@
     <BorderWidth>4</BorderWidth>
     <BorderEffect>FLAT</BorderEffect>
     <Color>
-      <Mode>COLORAREA_SINGLE_COLOR</Mode>
+      <Mode>COLORAREA_SOLID</Mode>
       <Luminosity>85</Luminosity>
       <FillDirection>COLORAREA_HORZ</FillDirection>
       <FillPattern>COLORAREA_PATTERN1</FillPattern>
       <PrimaryCol>
         <Col>
           <Red>255</Red>
-          <Green>0</Green>
-          <Blue>0</Blue>
+          <Green>67</Green>
+          <Blue>66</Blue>
           <Alpha>255</Alpha>
         </Col>
         <IsCalculated>false</IsCalculated>
@@ -27,7 +27,7 @@
         <IsCalculated>false</IsCalculated>
         <ColorExpr></ColorExpr>
       </SecondaryCol>
-      <Alpha>120</Alpha>
+      <Alpha>255</Alpha>
     </Color>
     <Font>
       <FontName>Tahoma</FontName>
@@ -205,7 +205,30 @@
     <OnActivateActionItems></OnActivateActionItems>
     <OnDeactivateActionItems></OnDeactivateActionItems>
     <Extension></Extension>
-    <Background></Background>
+    <Background>
+      <Color>
+        <Mode>COLORAREA_SOLID</Mode>
+        <Luminosity>85</Luminosity>
+        <FillDirection>COLORAREA_HORZ</FillDirection>
+        <FillPattern>COLORAREA_PATTERN1</FillPattern>
+        <PrimaryCol>
+          <Col>
+            <Red>255</Red>
+            <Green>60</Green>
+            <Blue>59</Blue>
+            <Alpha>255</Alpha>
+          </Col>
+          <IsCalculated>false</IsCalculated>
+          <ColorExpr></ColorExpr>
+        </PrimaryCol>
+        <SecondaryCol></SecondaryCol>
+        <Alpha>155</Alpha>
+      </Color>
+      <ImageBlob enctype="base64"></ImageBlob>
+      <ImageLayout></ImageLayout>
+      <UseColor>true</UseColor>
+      <UseImage>false</UseImage>
+    </Background>
     <MenuIcon>false</MenuIcon>
     <ExtendedProperties></ExtendedProperties>
     <ExtendedValues></ExtendedValues>

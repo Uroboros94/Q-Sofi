@@ -1838,7 +1838,7 @@
         </Col>
         <IsCalculated>true</IsCalculated>
         <ColorExpr>
-          <v>if(GetActiveSheetId()='Document\SH_TESOR',White(),RGB(0,220,171))</v>
+          <v>if(GetActiveSheetId()='Document\SH_TESOR',White(),RGB(118,232,119))</v>
         </ColorExpr>
       </PrimaryCol>
       <SecondaryCol></SecondaryCol>

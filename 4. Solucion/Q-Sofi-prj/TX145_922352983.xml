@@ -240,9 +240,9 @@
       <FillPattern>COLORAREA_PATTERN1</FillPattern>
       <PrimaryCol>
         <Col>
-          <Red>106</Red>
-          <Green>0</Green>
-          <Blue>0</Blue>
+          <Red>127</Red>
+          <Green>71</Green>
+          <Blue>71</Blue>
           <Alpha>255</Alpha>
         </Col>
         <IsCalculated>false</IsCalculated>
@@ -254,7 +254,7 @@
     <BkgImageSettings></BkgImageSettings>
     <BkgMode>BKG_SOLID</BkgMode>
     <Bmp enctype="base64"></Bmp>
-    <BkgAlpha>130</BkgAlpha>
+    <BkgAlpha>235</BkgAlpha>
     <Text></Text>
     <ImageRepresentation></ImageRepresentation>
     <AllowVerticalScrollBar>false</AllowVerticalScrollBar>

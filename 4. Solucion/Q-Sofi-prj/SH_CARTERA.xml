@@ -1838,7 +1838,7 @@
         </Col>
         <IsCalculated>true</IsCalculated>
         <ColorExpr>
-          <v>if(GetActiveSheetId() = 'Document\SH_CARTERA',White(),RGB(146,193,66))</v>
+          <v>if(GetActiveSheetId() = 'Document\SH_CARTERA',White(),RGB(78,178,28))</v>
         </ColorExpr>
       </PrimaryCol>
       <SecondaryCol></SecondaryCol>

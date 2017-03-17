@@ -6,9 +6,9 @@
       <Color></Color>
       <Font>
         <FontName>Calibri</FontName>
-        <PointSize1000>9000</PointSize1000>
+        <PointSize1000>12000</PointSize1000>
         <Underline>false</Underline>
-        <Bold>false</Bold>
+        <Bold>true</Bold>
         <Italic>false</Italic>
         <DropShadow>false</DropShadow>
       </Font>
@@ -215,7 +215,7 @@
     <BkgImageSettings></BkgImageSettings>
     <BkgMode>BKG_SOLID</BkgMode>
     <Bmp enctype="base64"></Bmp>
-    <BkgAlpha>50</BkgAlpha>
+    <BkgAlpha>0</BkgAlpha>
     <Text>
       <v>=if (Count(DISTINCT Contabilidad.NOMMES) &gt; 1 ,
 	'ANALISIS DUPONT ACUMULADO A ' &amp; Upper( MonthName(Max(Contabilidad.ACCOUNTINGDATE))),

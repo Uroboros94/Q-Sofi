@@ -1,23 +1,23 @@
 ﻿<MultiBoxProperties>
   <Layout>
-    <NoOfRows>1</NoOfRows>
+    <NoOfRows>2</NoOfRows>
     <MaxNoOfRowsDropDown>10</MaxNoOfRowsDropDown>
-    <ColWidthLabel>300</ColWidthLabel>
+    <ColWidthLabel>250</ColWidthLabel>
     <ColWidthDrop>42</ColWidthDrop>
-    <ColWidthData>300</ColWidthData>
+    <ColWidthData>694</ColWidthData>
     <Frame>
       <BorderWidth>4</BorderWidth>
       <BorderEffect>FLAT</BorderEffect>
       <Color>
-        <Mode>COLORAREA_SINGLE_COLOR</Mode>
+        <Mode>COLORAREA_SOLID</Mode>
         <Luminosity>85</Luminosity>
         <FillDirection>COLORAREA_HORZ</FillDirection>
         <FillPattern>COLORAREA_PATTERN1</FillPattern>
         <PrimaryCol>
           <Col>
             <Red>255</Red>
-            <Green>0</Green>
-            <Blue>0</Blue>
+            <Green>67</Green>
+            <Blue>66</Blue>
             <Alpha>255</Alpha>
           </Col>
           <IsCalculated>false</IsCalculated>
@@ -33,18 +33,18 @@
           <IsCalculated>false</IsCalculated>
           <ColorExpr></ColorExpr>
         </SecondaryCol>
-        <Alpha>120</Alpha>
+        <Alpha>255</Alpha>
       </Color>
       <Font>
-        <FontName>Tahoma</FontName>
-        <PointSize1000>8000</PointSize1000>
+        <FontName>Calibri</FontName>
+        <PointSize1000>9000</PointSize1000>
         <Underline>false</Underline>
         <Bold>false</Bold>
         <Italic>false</Italic>
         <DropShadow>false</DropShadow>
       </Font>
       <CaptionFont>
-        <FontName>Tahoma</FontName>
+        <FontName>Calibri</FontName>
         <PointSize1000>8000</PointSize1000>
         <Underline>false</Underline>
         <Bold>true</Bold>
@@ -211,14 +211,28 @@
       <OnActivateActionItems></OnActivateActionItems>
       <OnDeactivateActionItems></OnDeactivateActionItems>
       <Extension></Extension>
-      <Background></Background>
+      <Background>
+        <Color>
+          <Mode>COLORAREA_SOLID</Mode>
+          <Luminosity>85</Luminosity>
+          <FillDirection>COLORAREA_HORZ</FillDirection>
+          <FillPattern>COLORAREA_PATTERN1</FillPattern>
+          <PrimaryCol></PrimaryCol>
+          <SecondaryCol></SecondaryCol>
+          <Alpha>130</Alpha>
+        </Color>
+        <ImageBlob enctype="base64"></ImageBlob>
+        <ImageLayout></ImageLayout>
+        <UseColor>true</UseColor>
+        <UseImage>false</UseImage>
+      </Background>
       <MenuIcon>false</MenuIcon>
       <ExtendedProperties></ExtendedProperties>
       <ExtendedValues></ExtendedValues>
       <StateName></StateName>
     </Frame>
     <ReadOnly>false</ReadOnly>
-    <GridStyle>false</GridStyle>
+    <GridStyle>true</GridStyle>
     <DropDownLimit>false</DropDownLimit>
     <ClosedColor>
       <Mode>COLORAREA_DOUBLE_COLORS</Mode>
@@ -247,7 +261,7 @@
       </SecondaryCol>
       <Alpha>255</Alpha>
     </ClosedColor>
-    <Style>MULTIBOXSTYLE_LIGHT</Style>
+    <Style>MULTIBOXSTYLE_BORDERS</Style>
   </Layout>
   <PrintSettings>
     <Landscape>true</Landscape>
@@ -338,8 +352,8 @@
     <SheetPrintDrawBackGround>false</SheetPrintDrawBackGround>
     <StrDevModeExtra></StrDevModeExtra>
   </PrintSettings>
-  <TextAdjust>0</TextAdjust>
-  <NumAdjust>2</NumAdjust>
+  <TextAdjust>1</TextAdjust>
+  <NumAdjust>1</NumAdjust>
   <SortByApplicability>false</SortByApplicability>
   <MemberAttributes>
     <MultiBoxMemberAttributes>
@@ -348,6 +362,45 @@
       </Label>
       <FieldDef>
         <Name>Contabilidad.NOMBRE_CUENTA_N1</Name>
+        <Type>PRESENT</Type>
+      </FieldDef>
+      <SortCriteria>
+        <SortByState>1</SortByState>
+        <SortByFrequency>0</SortByFrequency>
+        <SortByNumeric>0</SortByNumeric>
+        <SortByAscii>1</SortByAscii>
+        <SortByLoadOrder>0</SortByLoadOrder>
+        <SortByExpression>0</SortByExpression>
+        <Expression></Expression>
+        <SortByGreyness>0</SortByGreyness>
+      </SortCriteria>
+      <ShowFrequency>false</ShowFrequency>
+      <FrequencyInPercent>false</FrequencyInPercent>
+      <HideExcluded>false</HideExcluded>
+      <ReadOnly>false</ReadOnly>
+      <IgnoreNull>false</IgnoreNull>
+      <NumAdjust>2</NumAdjust>
+      <TextAdjust>0</TextAdjust>
+      <MultiColumn>false</MultiColumn>
+      <OrderByRow>false</OrderByRow>
+      <MultiLine>0</MultiLine>
+      <ShowBorder>true</ShowBorder>
+      <SelectionStyle>SS_USER_PREF</SelectionStyle>
+      <ImageRepresentation></ImageRepresentation>
+      <SoftLock>false</SoftLock>
+      <ExcludedValuesMode>0</ExcludedValuesMode>
+      <DefaultSearchMode>0</DefaultSearchMode>
+      <NumberPresentation></NumberPresentation>
+      <SuppressHorizontalScroll>false</SuppressHorizontalScroll>
+      <SuppressAutoSortByState>false</SuppressAutoSortByState>
+      <PreferredTextSearchMode>TEXT_SEARCH_NONE</PreferredTextSearchMode>
+    </MultiBoxMemberAttributes>
+    <MultiBoxMemberAttributes>
+      <Label>
+        <v>Cuenta</v>
+      </Label>
+      <FieldDef>
+        <Name>Contabilidad.NOMBRE_CUENTA_N2</Name>
         <Type>PRESENT</Type>
       </FieldDef>
       <SortCriteria>
