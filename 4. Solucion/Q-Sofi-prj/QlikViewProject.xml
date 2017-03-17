@@ -1,4 +1,4 @@
-﻿<!-- Last project change: 2017-03-17 11:55:27 (2017-03-17 16:55:27) -->
+﻿<!-- Last project change: 2017-03-17 12:32:27 (2017-03-17 17:32:27) -->
 <PrjQlikViewProject>
   <GLOBAL>
     <AllPropertiesFileName>AllProperties.xml</AllPropertiesFileName>
@@ -170,9 +170,9 @@
         <PrjFrameParentDef>
           <ObjectId>Document\BU24_807629304</ObjectId>
           <Rect>
-            <Left>788</Left>
-            <Top>59</Top>
-            <Width>472</Width>
+            <Left>1572</Left>
+            <Top>113</Top>
+            <Width>375</Width>
             <Height>138</Height>
           </Rect>
           <MinimizedRect>
@@ -187,9 +187,9 @@
         <PrjFrameParentDef>
           <ObjectId>Document\BU25_174784576</ObjectId>
           <Rect>
-            <Left>1272</Left>
-            <Top>59</Top>
-            <Width>472</Width>
+            <Left>1959</Left>
+            <Top>113</Top>
+            <Width>375</Width>
             <Height>138</Height>
           </Rect>
           <MinimizedRect>
@@ -204,9 +204,9 @@
         <PrjFrameParentDef>
           <ObjectId>Document\BU26_972259347</ObjectId>
           <Rect>
-            <Left>1756</Left>
-            <Top>59</Top>
-            <Width>472</Width>
+            <Left>2347</Left>
+            <Top>113</Top>
+            <Width>375</Width>
             <Height>138</Height>
           </Rect>
           <MinimizedRect>
@@ -238,9 +238,9 @@
         <PrjFrameParentDef>
           <ObjectId>Document\BU27_169269798</ObjectId>
           <Rect>
-            <Left>2241</Left>
-            <Top>59</Top>
-            <Width>472</Width>
+            <Left>2734</Left>
+            <Top>113</Top>
+            <Width>375</Width>
             <Height>138</Height>
           </Rect>
           <MinimizedRect>
@@ -272,9 +272,9 @@
         <PrjFrameParentDef>
           <ObjectId>Document\BU28_407326875</ObjectId>
           <Rect>
-            <Left>2725</Left>
-            <Top>59</Top>
-            <Width>472</Width>
+            <Left>3122</Left>
+            <Top>113</Top>
+            <Width>375</Width>
             <Height>138</Height>
           </Rect>
           <MinimizedRect>
@@ -412,6 +412,23 @@
             <Top>131</Top>
             <Width>375</Width>
             <Height>313</Height>
+          </Rect>
+          <MinimizedRect>
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>297</Width>
+            <Height>102</Height>
+          </MinimizedRect>
+          <ShowMode>1</ShowMode>
+          <ZedLevel>0</ZedLevel>
+        </PrjFrameParentDef>
+        <PrjFrameParentDef>
+          <ObjectId>Document\CALENDARIO</ObjectId>
+          <Rect>
+            <Left>519</Left>
+            <Top>16</Top>
+            <Width>1031</Width>
+            <Height>231</Height>
           </Rect>
           <MinimizedRect>
             <Left>0</Left>
