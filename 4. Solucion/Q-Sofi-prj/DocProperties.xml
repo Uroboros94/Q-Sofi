@@ -197,7 +197,7 @@
   <WasSavedAsPrim>false</WasSavedAsPrim>
   <MyFileType>1729</MyFileType>
   <UserPermissions></UserPermissions>
-  <SelectionStyle>SS_CLASSIC</SelectionStyle>
+  <SelectionStyle>SS_USER_PREF</SelectionStyle>
   <SelectionColors>2</SelectionColors>
   <WallpaperPic enctype="base64">
       /9j/4AAQSkZJRgABAQEASABIAAD/4Q2oRXhpZgAATU0AKgAAAAgABwESAAMAAAABAAEAAAEaAAUA
@@ -19773,7 +19773,7 @@
       <Alpha>255</Alpha>
     </ColorAreaDef>
   </SelectionBgColor>
-  <ObjectCaptionStyle>OCS_GLASS</ObjectCaptionStyle>
+  <ObjectCaptionStyle>OCS_PLAIN</ObjectCaptionStyle>
   <DefaultTheme>E:\Itea\proyectos\QUEST\Q-Sofi\4. Solucion\Design\QuestTheme.qvt</DefaultTheme>
   <DisableLayoutUndo>false</DisableLayoutUndo>
   <ClientGracefulMode>CG_INDICATE</ClientGracefulMode>
@@ -19904,10 +19904,10 @@
   <Extensions></Extensions>
   <ExtensionDescriptions></ExtensionDescriptions>
   <AllowServerAnnotation>true</AllowServerAnnotation>
-  <LastReloadTimeAsISOString>2017-03-23T14:18:14.958Z</LastReloadTimeAsISOString>
+  <LastReloadTimeAsISOString>2017-03-23T17:47:56.056Z</LastReloadTimeAsISOString>
   <AppProperties>
     <Title></Title>
-    <LastReloadTime>2017-03-23T14:18:14.958Z</LastReloadTime>
+    <LastReloadTime>2017-03-23T17:47:56.056Z</LastReloadTime>
     <MigrationHash></MigrationHash>
     <SavedInProductVersion></SavedInProductVersion>
     <Thumbnail></Thumbnail>
