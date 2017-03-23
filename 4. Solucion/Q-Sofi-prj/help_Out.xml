@@ -23,7 +23,7 @@
       </Color>
       <Font>
         <FontName>Calibri</FontName>
-        <PointSize1000>8000</PointSize1000>
+        <PointSize1000>9000</PointSize1000>
         <Underline>false</Underline>
         <Bold>false</Bold>
         <Italic>false</Italic>
@@ -53,7 +53,9 @@
       <ClearIcon>false</ClearIcon>
       <ClearOtherIcon>false</ClearOtherIcon>
       <LockIcon>false</LockIcon>
-      <HelpText></HelpText>
+      <HelpText>
+        <v>¿Cómo leer estos indicadores?</v>
+      </HelpText>
       <ObjectId></ObjectId>
       <ShrinkFrameToData>true</ShrinkFrameToData>
       <ShowCaption>false</ShowCaption>
@@ -162,7 +164,12 @@
       <Rainbow>false</Rainbow>
       <TextAdjustHorizontal>0</TextAdjustHorizontal>
       <TextAdjustVertical>4</TextAdjustVertical>
-      <Show></Show>
+      <Show>
+        <Always>false</Always>
+        <Expression>
+          <v>vAyudas&lt;&gt;''</v>
+        </Expression>
+      </Show>
       <AllowMoveSize>true</AllowMoveSize>
       <AllowCopyClone>true</AllowCopyClone>
       <dummy></dummy>
@@ -210,7 +217,24 @@
     <BottomMargin>10</BottomMargin>
     <LeftMargin>10</LeftMargin>
     <RightMargin>10</RightMargin>
-    <TextColor></TextColor>
+    <TextColor>
+      <Mode>COLORAREA_SOLID</Mode>
+      <Luminosity>85</Luminosity>
+      <FillDirection>COLORAREA_HORZ</FillDirection>
+      <FillPattern>COLORAREA_PATTERN1</FillPattern>
+      <PrimaryCol>
+        <Col>
+          <Red>54</Red>
+          <Green>54</Green>
+          <Blue>54</Blue>
+          <Alpha>255</Alpha>
+        </Col>
+        <IsCalculated>false</IsCalculated>
+        <ColorExpr></ColorExpr>
+      </PrimaryCol>
+      <SecondaryCol></SecondaryCol>
+      <Alpha>255</Alpha>
+    </TextColor>
     <BkgColor>
       <Mode>COLORAREA_SOLID</Mode>
       <Luminosity>85</Luminosity>
@@ -230,16 +254,66 @@
       <Alpha>255</Alpha>
     </BkgColor>
     <BkgImageSettings></BkgImageSettings>
-    <BkgMode>BKG_SOLID</BkgMode>
-    <Bmp enctype="base64"></Bmp>
-    <BkgAlpha>0</BkgAlpha>
-    <Text>
-      <v>='Fecha Última Actualización: '&amp;ReloadTime()</v>
-    </Text>
+    <BkgMode>BKG_IMAGE</BkgMode>
+    <Bmp enctype="base64">
+        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
+        zQAAAABJRU5ErkJggg==
+    </Bmp>
+    <BkgAlpha>255</BkgAlpha>
+    <Text></Text>
     <ImageRepresentation></ImageRepresentation>
     <AllowVerticalScrollBar>false</AllowVerticalScrollBar>
     <AllowHorizontalScrollBar>false</AllowHorizontalScrollBar>
-    <ActionItems></ActionItems>
+    <ActionItems>
+      <ActionItemDef>
+        <Type>TYPE_SET_VALUE</Type>
+        <Parameters>
+          <StringExpr>
+            <v>vAyudas</v>
+          </StringExpr>
+          <StringExpr>
+            <v>=if(vAyudas&lt;&gt;'Ayuda 001','Ayuda 001','')</v>
+          </StringExpr>
+        </Parameters>
+        <StateName></StateName>
+      </ActionItemDef>
+    </ActionItems>
   </Layout>
   <PrintSettings></PrintSettings>
   <UserSized>true</UserSized>

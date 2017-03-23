@@ -1,7 +1,7 @@
 ﻿<GraphProperties>
   <GraphLayout>
     <Frame>
-      <BorderWidth>4</BorderWidth>
+      <BorderWidth>0</BorderWidth>
       <BorderEffect>FLAT</BorderEffect>
       <Color>
         <Mode>COLORAREA_SOLID</Mode>
@@ -32,7 +32,7 @@
       </Color>
       <Font>
         <FontName>Calibri</FontName>
-        <PointSize1000>9000</PointSize1000>
+        <PointSize1000>10000</PointSize1000>
         <Underline>false</Underline>
         <Bold>false</Bold>
         <Italic>false</Italic>
@@ -2403,8 +2403,8 @@
         <MidAxisLabel>false</MidAxisLabel>
         <AxisPosition>POSITION_LEFT</AxisPosition>
         <Font>
-          <FontName>Arial</FontName>
-          <PointSize1000>7000</PointSize1000>
+          <FontName>Calibri</FontName>
+          <PointSize1000>10000</PointSize1000>
           <Underline>false</Underline>
           <Bold>false</Bold>
           <Italic>false</Italic>
@@ -2446,7 +2446,7 @@
           <SecondaryCol></SecondaryCol>
           <Alpha>255</Alpha>
         </TextColor>
-        <Thickness>0</Thickness>
+        <Thickness>4</Thickness>
         <MinorStepInterval>2</MinorStepInterval>
         <MinorStepMode>0</MinorStepMode>
       </AxisDef>
@@ -2742,7 +2742,7 @@
     <Legend>
       <Font>
         <FontName>Calibri</FontName>
-        <PointSize1000>9000</PointSize1000>
+        <PointSize1000>10000</PointSize1000>
         <Underline>false</Underline>
         <Bold>false</Bold>
         <Italic>false</Italic>
@@ -2830,7 +2830,7 @@
       <AxisPosition>POSITION_LEFT</AxisPosition>
       <Font>
         <FontName>Calibri</FontName>
-        <PointSize1000>8000</PointSize1000>
+        <PointSize1000>10000</PointSize1000>
         <Underline>false</Underline>
         <Bold>false</Bold>
         <Italic>false</Italic>
@@ -2872,7 +2872,7 @@
         <SecondaryCol></SecondaryCol>
         <Alpha>255</Alpha>
       </TextColor>
-      <Thickness>0</Thickness>
+      <Thickness>4</Thickness>
       <MinorStepInterval>2</MinorStepInterval>
       <MinorStepMode>0</MinorStepMode>
     </XAxis>
@@ -2898,7 +2898,14 @@
       <Logscale>false</Logscale>
       <MidAxisLabel>false</MidAxisLabel>
       <AxisPosition>POSITION_LEFT</AxisPosition>
-      <Font></Font>
+      <Font>
+        <FontName>Arial</FontName>
+        <PointSize1000>10000</PointSize1000>
+        <Underline>false</Underline>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <DropShadow>false</DropShadow>
+      </Font>
       <Color>
         <Mode>COLORAREA_SOLID</Mode>
         <Luminosity>85</Luminosity>
@@ -3415,7 +3422,7 @@
     </PlotAreaColor>
     <Bmp enctype="base64"></Bmp>
     <BkgMode>BKG_SOLID</BkgMode>
-    <BkgAlpha>72</BkgAlpha>
+    <BkgAlpha>0</BkgAlpha>
     <FullBkgBmp>false</FullBkgBmp>
     <BkgImageSettings_NOT_IMPLEMENTED></BkgImageSettings_NOT_IMPLEMENTED>
     <InChart>false</InChart>
@@ -3615,7 +3622,14 @@
     <ReverseStagger>false</ReverseStagger>
     <BlockChartMode>BLOCKCHART_CAPTION</BlockChartMode>
     <PlotAreaMode>PLOT_AREA_MINIMAL</PlotAreaMode>
-    <BlockCaptionFont></BlockCaptionFont>
+    <BlockCaptionFont>
+      <FontName>Arial</FontName>
+      <PointSize1000>10000</PointSize1000>
+      <Underline>false</Underline>
+      <Bold>false</Bold>
+      <Italic>false</Italic>
+      <DropShadow>false</DropShadow>
+    </BlockCaptionFont>
     <BlockCaptionFontColor>
       <Red>83</Red>
       <Green>83</Green>
@@ -4759,8 +4773,8 @@
             <MidAxisLabel>false</MidAxisLabel>
             <AxisPosition>POSITION_LEFT</AxisPosition>
             <Font>
-              <FontName>Arial</FontName>
-              <PointSize1000>7000</PointSize1000>
+              <FontName>Calibri</FontName>
+              <PointSize1000>10000</PointSize1000>
               <Underline>false</Underline>
               <Bold>false</Bold>
               <Italic>false</Italic>
@@ -4802,7 +4816,7 @@
               <SecondaryCol></SecondaryCol>
               <Alpha>255</Alpha>
             </TextColor>
-            <Thickness>0</Thickness>
+            <Thickness>4</Thickness>
             <MinorStepInterval>2</MinorStepInterval>
             <MinorStepMode>0</MinorStepMode>
           </AxisData>

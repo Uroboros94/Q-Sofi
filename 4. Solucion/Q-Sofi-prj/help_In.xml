@@ -1,7 +1,7 @@
 ﻿<TextObjectProperties>
   <Layout>
     <Frame>
-      <BorderWidth>12</BorderWidth>
+      <BorderWidth>0</BorderWidth>
       <BorderEffect>FLAT</BorderEffect>
       <Color>
         <Mode>COLORAREA_SOLID</Mode>
@@ -10,9 +10,9 @@
         <FillPattern>COLORAREA_PATTERN1</FillPattern>
         <PrimaryCol>
           <Col>
-            <Red>64</Red>
-            <Green>0</Green>
-            <Blue>0</Blue>
+            <Red>4</Red>
+            <Green>108</Green>
+            <Blue>193</Blue>
             <Alpha>255</Alpha>
           </Col>
           <IsCalculated>false</IsCalculated>
@@ -53,7 +53,9 @@
       <ClearIcon>false</ClearIcon>
       <ClearOtherIcon>false</ClearOtherIcon>
       <LockIcon>false</LockIcon>
-      <HelpText></HelpText>
+      <HelpText>
+        <v>¿Cómo leer estos indicadores?</v>
+      </HelpText>
       <ObjectId></ObjectId>
       <ShrinkFrameToData>true</ShrinkFrameToData>
       <ShowCaption>false</ShowCaption>
@@ -165,10 +167,10 @@
       <Show>
         <Always>false</Always>
         <Expression>
-          <v>vSwichMenu = 1</v>
+          <v>vAyudas&lt;&gt;'Ayuda 001'</v>
         </Expression>
       </Show>
-      <AllowMoveSize>false</AllowMoveSize>
+      <AllowMoveSize>true</AllowMoveSize>
       <AllowCopyClone>true</AllowCopyClone>
       <dummy></dummy>
       <CustomObjectGuid enctype="base64"></CustomObjectGuid>
@@ -198,7 +200,7 @@
       <AllowModify>true</AllowModify>
       <CopyImageIcon>false</CopyImageIcon>
       <PreserveScrollPosition>false</PreserveScrollPosition>
-      <ShadowIntensity>SHADOW_INTENSE</ShadowIntensity>
+      <ShadowIntensity>SHADOW_NONE</ShadowIntensity>
       <OnActivateActionItems></OnActivateActionItems>
       <OnDeactivateActionItems></OnDeactivateActionItems>
       <Extension></Extension>
@@ -240,9 +242,9 @@
       <FillPattern>COLORAREA_PATTERN1</FillPattern>
       <PrimaryCol>
         <Col>
-          <Red>127</Red>
-          <Green>71</Green>
-          <Blue>71</Blue>
+          <Red>214</Red>
+          <Green>231</Green>
+          <Blue>248</Blue>
           <Alpha>255</Alpha>
         </Col>
         <IsCalculated>false</IsCalculated>
@@ -252,14 +254,94 @@
       <Alpha>255</Alpha>
     </BkgColor>
     <BkgImageSettings></BkgImageSettings>
-    <BkgMode>BKG_SOLID</BkgMode>
-    <Bmp enctype="base64"></Bmp>
-    <BkgAlpha>229</BkgAlpha>
+    <BkgMode>BKG_IMAGE</BkgMode>
+    <Bmp enctype="base64">
+        iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+        AAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAA4ASURB
+        VHic7Z17lFXVfcc/v3PPPBjm3uElVAW16oJGBB1mhPLQIKIilRBXapvGEkxtUGeYJDZNTNraTF7t
+        Mq42mmEmCdVUKyu1Cak8fCBFoREQhXlArToqjSSoiDAwd+48773n1z9mBgaYe+fO3HPuOXPnfNZi
+        rTt377P3964v+7z23r+fkAXofXNHtcY6pqoaU1FrmqpMQ7gQGN/zr0AgT6EAQKBNoRNoA44Dx1He
+        F4O3QN4Wsd4e3VLUKI/v6HDvV9mDuC1gsChIpPyqKywxFonK9UAxcBFg2NyVBfwWoU4tthsBfSlY
+        Vf+GzX04zrAwOPLlOZM0Hl1uWSwS0YUgk9xRoh8psl2Ul8SKbQz+5MBRd3SkjmcN1orL81rioZsQ
+        VgCfBnLc1nQWcVW2gz7ZGjPWX7C2ts1tQf3hOYOby0vmiOhdKLcDY9zWkyIngV+oWo8W1TTsdVtM
+        XzxjcLisZAGi9wO3uq0lPXQXKg+Gauo2u60EPGBwpKJ4sRWX7yL8odta7ESVesOQfyxcU7teQN3S
+        4ZrB4dWl89WyqkQodktDJhChVlUrQtX1r7jSf6Y7bL5v7jijq+NbiqzG/kcbr6LAOjH0q8Gq+o8z
+        2XHGDFaQcFnxChH5J2BCpvr1GCdU5NuhCbVVUomViQ4zYvCJ8uKLA8jPgXmZ6G8YsDNmyh3jHqn9
+        rdMdOX6KDJfNWhaAOnxz+7LAjOmBlrLiP3a6I8dGsFYuNMPHwn8nygOMnGvtYFFBqwrP6/qaVP5v
+        lxMdOGJwW9k1U2ISWw8y24n2sw5ljxmI3V5QdeCw3U3bbnBL2axPWMILAlPsbjvL+cAQWVK4pvZ/
+        7GzU1lNnc0XpbBV+7Zs7JC6wVP87vLp0vp2N2mZwpKJ4sVjWi4zcRyA7GCtqbW0uL11qV4O2GNy8
+        uuRzliXPA4V2tDeSUSgQrA0t5cWftaO9tK/BzfeW/JEYugEwbdDjc5qoYny6qHrfc+k0kpbBzeUl
+        cwR9ERidTjs+CWlHjBtDa/btGmoDQza4pfyq6Yrxa5BxQ23DJyWOi3JtsKbuzaEcPKRrcNOXSy5S
+        zC2+uRlhvCW80FYxc/JQDh60wbqqJMeM6VOgQ+rQZ/AITIlZgV9p5fTcwR47aIMjOfoDYO5gj/NJ
+        F5nd8nHe9wZ91GAq99wxbx7scT62oWDdFqpu2JjqASkb1f1+OV5P90JyH/c4EUeLx1bXH0qlckqn
+        aK3EiEn8KXxzvcDYAPJvmuLgTMngyNFZX8Sfz/US17WUF38hlYoD/i8Il88eD7G38N8xe43jROUP
+        QmtrjyWrlMIIjj2Eb64XGU+ODnhXnXQEh1eXzketlweq5xmMAMb5l2JMvBjj9y7BmPT7GGMmIvmj
+        Ib8QKQhCVzvaFkHbW9DWk8R/9ybWe68Tf+91tD3i9i8YLBbogmRLchNOEChIuHvdsnfNNXMxp5YS
+        uOxqApdejXHxdCQ3P/kxBSFkzOm9a+bMhd0f1CJ+sIHonk1E926BeNQ53fZhgDwCJFw5k9C8cNms
+        ZQibHJGVJoGLriBn0R2YV17bPTptRk9+ROemaqJ7nwN1bVNCyqhyS1FN3Zb+yhJfg4VvOKYoTcwr
+        ryWndIkj5gLImEnkf/47jLr7YaQg5EgfdiLC3ycq69fgSHnxDfiPRZhXLqDg6+swJnj+tfvclnuL
+        P9lfQb8GW8jfOqtn+GBMuJBRFTVI0OMTZwb9enbONbhnEn+P84qGTt7Su8lduippHW0LYx1uxGr6
+        EA03oe0tAEhBEAmOw5g8jcD5l0EgtYUo8cZXaVtT7ulrsqo1++z9yef8up7N18MPVeLv1hHbv53Y
+        G7uxjg78qlYKQpilS8hddMeAp+HAtDnkzFlGdI8n7zt7CPwFcIbBZ4xgvXNhfsvo8Id4fGd93xGs
+        LU1EX91MdNcGrI+HuNUnJ5e8W1aRe+OdIImfCvXER0S+tQys+ND6cZ4TQSN8vlS929n7xRkjOFIY
+        Xo5629xeNHKCrhd+RtfL6yGW5q6PaBedm9ZgNR0h/7PfTFhNxk7CvGIesddfTq8/5xgb0eCtwK96
+        vzjjJkthRcYlDYFo3VZaKz9F1/afp29u33Z3ridWvy1pHXNGvzernkHVOMPDUwa33DNzIspNmZc0
+        eKwjv0E7nAlq0/lMTdLywKUzHenXPnRpeFXJqbmD0yPYNL0YqijjWB8dwjryfwnLjQlTkl6nPUAO
+        pt7W+8cpgy2LRe7o8R7WBwcTF+bkIjkDvO92G4Mlpz/SPbHQHUHOB8BqOZ68gunxE52yWFeV5ECP
+        wZF7Sqe7Fx7QiyQ/BWuX52OUhsIBLYEegy0zfr27eryFjC5KWKbtLbbeuTuFBGQB9BjcE7XVpwdj
+        0iUJy6yjjsdNsQfVeXD6JmuWi1I8hRSECFw4NWF5/GBDBtWkxVUAht43dxT+jvxT5My5FYzE0+Tx
+        N4a80S/TXKJ3Lsw3WmMdU/Gj4AAgwXHk3pR4Nap14gixRk8Fk02GEcmPXG6oJdPcVuIJRMj/3ANJ
+        5327nv0paEYC1NmDGZ9moL7BAHlL78GccV3CcutwI9FXn8mgovRRlWmGoonvKEYIuTffRe4tf5m4
+        ghWn45cPDa/RCyAyzUR08nBZ9mw7hkHepyrIXfz5pNU6n36Y+MH6DImyD1W90AQZkRvKpCBE/p3f
+        x7wi+drC6J7N3dOSwxIZbwIeX01mP+aM68j/028iYyYmrRd97Vk6/n3Qe649hI43GUGxrYzxF5D3
+        ma+e3s2QhK5tT9C5scrTi+wGQqDQBAYd92G4Ibn55C5eSe6NKyEnL3nlaCcdv/wB0d0bMiPOQQTy
+        sttgEXJKl5C3/EsDno6hex64/Wf3Yx35TQbEOY/2GJy1FHzlXwhclkLOj2gXnVsfo2vrE8Nl01nK
+        mEAXMMptIU4QuGj6gHXi79bR8dQ/ZM2o7YtAZ1YbnAxtC9O5sYro7qeH9Y1UMrTH4AiQeIY7C7E+
+        PEjbw19EW5vdluIoChGD7vy5Iwrr5NGsNxcA5ZgBJA3i4TN8MUSPGSgfuC3ExxlUjA8NEW10W4iP
+        QyhvGYjhG5yliGqjIXF/BGctEm80RufnvQOZSZTok1GswtaxB0354Svt4fJZvwMudluR3VjH3wfz
+        3FftGh4RT4bvyeM7OrrfRQu1aPYZ3Po9x3M/epn9cGrzme5wVYqPA+hO6DHYUOsld8X42I0agdMG
+        F1bvfwM44qoiHzsJhzq1Hno3n3XPp+xwVZKPnfyXrK2NQp8tK6L4p+lsQfT53o+nVnSIFduoAbOa
+        bInTETCRvIKExdrZBvFYBgVljC66jFNZWc5Y8R4un7UZuDXjkhzAnPFJRt39zwnL2x/9GrGGLDxp
+        KRtCNXXnBmEBEHgy84p87ORsD88wuLA1tAk4mVFFPnZyojAQfrbvF2eO4Md3dAC/yKgkH9tQ9Km+
+        cSqhn43fqtajmZPkYydqyWNnf3eOwUU1DXsVXsyMJB+7EHhhzI/ras/+vt/QDYbK952X5GMnatCv
+        Z/3ubAjW1G4PlxfvApnvrCzn0K52rGPvJ67Q2Z45Mc6zO1RV12+M44Q7v3tSyQ6vmAUjFEvl5jE1
+        tVv7K0tosIJEVs/aq0qJc9J80kbZE6qpS5iwO2H4JAG1LOte/OU8XsZSka8kq5A0PlZRTcNeVP7V
+        Xk0+dqHoT4uqa19NVmfAAGial/t1/N0PXuS4kPPAQJUGNLjoh680ofyNPZp8bEP561D1awOuHkwp
+        hGFwYt1jwM60RfnYhO4I1tQ9kUrNlAyWSizTiP0Z/qnaA2hTzDRWCqmlL0s5CGlB1YHDirGSFBv2
+        cQRF+MK4R2pTDlo9qCizRdX7ngNNPIvu4yyiD4bW1A8qt96gwwgHzyv6BuiwCZqcNSh7gl1GwjzB
+        iRhSkMq2ipmTo5a5W/xA4pniUEB03ug19YPeyz2kQOAFVQcOE7BuAI4O5XifQXEMkSVDMRfSiPRe
+        9KOGd9QwltEdxMXHAQTaUGt5aE3tW0NtI61Q/kVV+14zDL2N7lBMPvYStZTPhGoadqfTSNq5Ggqr
+        6rcJuhLIrhBx7hIVYUVRTd2WdBuyLRJ4pKJ4sWXJfwJBu9ocobSq6O1Fa+qfH7jqwNga6r257Opr
+        RIxngfPsbHfkoE2oLkv3tNwX22P5t5TN+gTCFoWL7G47yzmEZdwc+vE+W2Om2J4vKVhT92bAiM0H
+        XrG77exFdwVE59ltLjiUEKug6sDh4Hmh61T4Nv6KkGSooD8KRo3rh/qcOxCOp1vpvvlinZ++9hyO
+        KcbK7vf7zpGRfDptZddMiUl8HZA489SIQneYcevPC36yP8m6XnvIWMIkBQmXFa8QkYeAgePrZyXa
+        pGJ8JzShtkoqM3PpynhGrJP3zhgbMMxKRcqBQKb7dwkF1hGVvwqtrc3oognXUp41l5fMEbQKuMYt
+        DRlB2aNYXyqqaXAlbanrOe3CZSULVLRS4Aa3tdiL7kLlwWBN3TOpLq9xAtcN7iVcVrIA0fsZ9iEk
+        dJdhUFlYVb/NbSXgIYN76XndeRfwJ8BYt/WkhjYp/Ida8lh/WzjdxHMG96IVl+e1xEM3IawAluO9
+        BF5xVbaDPtkaM9ZfsLa2zW1B/eFZg/sSXlUyAVNvw2AJymIg5JKUZmAbyBYIPJ3KwnO3GRYG90VX
+        leS05FilqDEPdAHCTOAS7H/tGgcOAftBd6olu0OTQvukcsewCq417AzuD624PK9Vi6aqZU1Tkamg
+        UxWZLDChOz+yjqZ7s3vvXHULEFOIgBwHPS7oYZC3RbSRWKCxMOfkO2cHNBmO/D+oI5mm5x8zjgAA
+        AABJRU5ErkJggg==
+    </Bmp>
+    <BkgAlpha>255</BkgAlpha>
     <Text></Text>
     <ImageRepresentation></ImageRepresentation>
     <AllowVerticalScrollBar>false</AllowVerticalScrollBar>
     <AllowHorizontalScrollBar>false</AllowHorizontalScrollBar>
-    <ActionItems></ActionItems>
+    <ActionItems>
+      <ActionItemDef>
+        <Type>TYPE_SET_VALUE</Type>
+        <Parameters>
+          <StringExpr>
+            <v>vAyudas</v>
+          </StringExpr>
+          <StringExpr>
+            <v>=if(vAyudas&lt;&gt;'Ayuda 001','Ayuda 001','')</v>
+          </StringExpr>
+        </Parameters>
+        <StateName></StateName>
+      </ActionItemDef>
+    </ActionItems>
   </Layout>
   <PrintSettings></PrintSettings>
   <UserSized>true</UserSized>

@@ -22,9 +22,9 @@
     </Color>
     <Font>
       <FontName>Calibri</FontName>
-      <PointSize1000>10000</PointSize1000>
+      <PointSize1000>9000</PointSize1000>
       <Underline>false</Underline>
-      <Bold>true</Bold>
+      <Bold>false</Bold>
       <Italic>false</Italic>
       <DropShadow>false</DropShadow>
     </Font>
@@ -151,7 +151,7 @@
     <FixCornerSize>45</FixCornerSize>
     <RelCornerSize>4059000000000000</RelCornerSize>
     <Power>4039000000000000</Power>
-    <RoundedShape>true</RoundedShape>
+    <RoundedShape>false</RoundedShape>
     <EnableTopLeftRounded>true</EnableTopLeftRounded>
     <EnableTopRightRounded>true</EnableTopRightRounded>
     <EnableBottomLeftRounded>true</EnableBottomLeftRounded>
@@ -219,7 +219,7 @@
       </Col>
       <IsCalculated>true</IsCalculated>
       <ColorExpr>
-        <v>if(vComparativos=4,LightGray(),white())</v>
+        <v>if(vComparativos=4,black(),white())</v>
       </ColorExpr>
     </PrimaryCol>
     <SecondaryCol></SecondaryCol>
@@ -245,7 +245,7 @@
     <SecondaryCol></SecondaryCol>
     <Alpha>255</Alpha>
   </BkgColor>
-  <BtnStyle>BS_AQUA</BtnStyle>
+  <BtnStyle>BS_PLAIN</BtnStyle>
   <Bmp enctype="base64"></Bmp>
   <BkgAlpha>255</BkgAlpha>
   <TextAdjustHorizontal>1</TextAdjustHorizontal>

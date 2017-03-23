@@ -232,7 +232,7 @@
       <StateName></StateName>
     </Frame>
     <ReadOnly>false</ReadOnly>
-    <GridStyle>true</GridStyle>
+    <GridStyle>false</GridStyle>
     <DropDownLimit>false</DropDownLimit>
     <ClosedColor>
       <Mode>COLORAREA_DOUBLE_COLORS</Mode>

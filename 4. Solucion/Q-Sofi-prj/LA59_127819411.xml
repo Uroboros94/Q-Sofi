@@ -1,4 +1,4 @@
-﻿<TextObjectProperties>
+﻿<LineArrowProperties>
   <Layout>
     <Frame>
       <BorderWidth>0</BorderWidth>
@@ -23,7 +23,7 @@
       </Color>
       <Font>
         <FontName>Calibri</FontName>
-        <PointSize1000>8000</PointSize1000>
+        <PointSize1000>9000</PointSize1000>
         <Underline>false</Underline>
         <Bold>false</Bold>
         <Italic>false</Italic>
@@ -42,7 +42,7 @@
       <AllowMinimize>false</AllowMinimize>
       <AutoMinimize>false</AutoMinimize>
       <AllowMaximize>false</AllowMaximize>
-      <AllowInfo>false</AllowInfo>
+      <AllowInfo>true</AllowInfo>
       <PrintIcon>false</PrintIcon>
       <CopyIcon>false</CopyIcon>
       <XLIcon>false</XLIcon>
@@ -197,30 +197,39 @@
       <OnActivateActionItems></OnActivateActionItems>
       <OnDeactivateActionItems></OnDeactivateActionItems>
       <Extension></Extension>
-      <Background></Background>
+      <Background>
+        <Color>
+          <Mode>COLORAREA_SOLID</Mode>
+          <Luminosity>85</Luminosity>
+          <FillDirection>COLORAREA_HORZ</FillDirection>
+          <FillPattern>COLORAREA_PATTERN1</FillPattern>
+          <PrimaryCol></PrimaryCol>
+          <SecondaryCol></SecondaryCol>
+          <Alpha>0</Alpha>
+        </Color>
+        <ImageBlob enctype="base64"></ImageBlob>
+        <ImageLayout></ImageLayout>
+        <UseColor>true</UseColor>
+        <UseImage>false</UseImage>
+      </Background>
       <MenuIcon>false</MenuIcon>
       <ExtendedProperties></ExtendedProperties>
       <ExtendedValues></ExtendedValues>
       <StateName></StateName>
     </Frame>
-    <LegacyHelpModeThatHasNoEffectWhatSoEver>false</LegacyHelpModeThatHasNoEffectWhatSoEver>
-    <TextAdjustHorizontal>1</TextAdjustHorizontal>
-    <TextAdjustVertical>4</TextAdjustVertical>
-    <TopMargin>10</TopMargin>
-    <BottomMargin>10</BottomMargin>
-    <LeftMargin>10</LeftMargin>
-    <RightMargin>10</RightMargin>
-    <TextColor></TextColor>
-    <BkgColor>
+    <ArrowOrient>0</ArrowOrient>
+    <LineWeight>4</LineWeight>
+    <LineStyle>0</LineStyle>
+    <LineColor>
       <Mode>COLORAREA_SOLID</Mode>
       <Luminosity>85</Luminosity>
       <FillDirection>COLORAREA_HORZ</FillDirection>
       <FillPattern>COLORAREA_PATTERN1</FillPattern>
       <PrimaryCol>
         <Col>
-          <Red>214</Red>
-          <Green>231</Green>
-          <Blue>248</Blue>
+          <Red>192</Red>
+          <Green>192</Green>
+          <Blue>192</Blue>
           <Alpha>255</Alpha>
         </Col>
         <IsCalculated>false</IsCalculated>
@@ -228,19 +237,39 @@
       </PrimaryCol>
       <SecondaryCol></SecondaryCol>
       <Alpha>255</Alpha>
+    </LineColor>
+    <BkgColor>
+      <Mode>COLORAREA_SOLID</Mode>
+      <Luminosity>85</Luminosity>
+      <FillDirection>COLORAREA_HORZ</FillDirection>
+      <FillPattern>COLORAREA_PATTERN1</FillPattern>
+      <PrimaryCol>
+        <Col>
+          <Red>255</Red>
+          <Green>255</Green>
+          <Blue>255</Blue>
+          <Alpha>255</Alpha>
+        </Col>
+        <IsCalculated>false</IsCalculated>
+        <ColorExpr></ColorExpr>
+      </PrimaryCol>
+      <SecondaryCol></SecondaryCol>
+      <Alpha>0</Alpha>
     </BkgColor>
-    <BkgImageSettings></BkgImageSettings>
+    <BkgAlpha>0</BkgAlpha>
+    <BkgImageSettings>
+      <ImageStyle>
+        <StretchMode>IMAGE_FILL</StretchMode>
+        <ImgFallBack>0</ImgFallBack>
+      </ImageStyle>
+      <HorizontalAdjust>1</HorizontalAdjust>
+      <VerticalAdjust>4</VerticalAdjust>
+    </BkgImageSettings>
     <BkgMode>BKG_SOLID</BkgMode>
     <Bmp enctype="base64"></Bmp>
-    <BkgAlpha>0</BkgAlpha>
-    <Text>
-      <v>='Fecha Última Actualización: '&amp;ReloadTime()</v>
-    </Text>
-    <ImageRepresentation></ImageRepresentation>
-    <AllowVerticalScrollBar>false</AllowVerticalScrollBar>
-    <AllowHorizontalScrollBar>false</AllowHorizontalScrollBar>
+    <FromPt>7</FromPt>
+    <ToPt>3</ToPt>
+    <SmoothLine>true</SmoothLine>
     <ActionItems></ActionItems>
   </Layout>
-  <PrintSettings></PrintSettings>
-  <UserSized>true</UserSized>
-</TextObjectProperties>
+</LineArrowProperties>
