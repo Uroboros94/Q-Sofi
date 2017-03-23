@@ -70,33 +70,6 @@
     <MultiLine>2</MultiLine>
     <ActiveBgColor>
       <Mode>COLORAREA_SINGLE_COLOR</Mode>
-      <Luminosity>150</Luminosity>
-      <FillDirection>COLORAREA_HORZ</FillDirection>
-      <FillPattern>COLORAREA_PATTERN2</FillPattern>
-      <PrimaryCol>
-        <Col>
-          <Red>178</Red>
-          <Green>47</Green>
-          <Blue>46</Blue>
-          <Alpha>255</Alpha>
-        </Col>
-        <IsCalculated>false</IsCalculated>
-        <ColorExpr></ColorExpr>
-      </PrimaryCol>
-      <SecondaryCol>
-        <Col>
-          <Red>153</Red>
-          <Green>153</Green>
-          <Blue>153</Blue>
-          <Alpha>255</Alpha>
-        </Col>
-        <IsCalculated>false</IsCalculated>
-        <ColorExpr></ColorExpr>
-      </SecondaryCol>
-      <Alpha>255</Alpha>
-    </ActiveBgColor>
-    <BgColor>
-      <Mode>COLORAREA_SINGLE_COLOR</Mode>
       <Luminosity>153</Luminosity>
       <FillDirection>COLORAREA_HORZ</FillDirection>
       <FillPattern>COLORAREA_PATTERN1</FillPattern>
@@ -115,6 +88,33 @@
           <Red>200</Red>
           <Green>200</Green>
           <Blue>200</Blue>
+          <Alpha>255</Alpha>
+        </Col>
+        <IsCalculated>false</IsCalculated>
+        <ColorExpr></ColorExpr>
+      </SecondaryCol>
+      <Alpha>255</Alpha>
+    </ActiveBgColor>
+    <BgColor>
+      <Mode>COLORAREA_SINGLE_COLOR</Mode>
+      <Luminosity>150</Luminosity>
+      <FillDirection>COLORAREA_HORZ</FillDirection>
+      <FillPattern>COLORAREA_PATTERN2</FillPattern>
+      <PrimaryCol>
+        <Col>
+          <Red>178</Red>
+          <Green>47</Green>
+          <Blue>46</Blue>
+          <Alpha>255</Alpha>
+        </Col>
+        <IsCalculated>false</IsCalculated>
+        <ColorExpr></ColorExpr>
+      </PrimaryCol>
+      <SecondaryCol>
+        <Col>
+          <Red>153</Red>
+          <Green>153</Green>
+          <Blue>153</Blue>
           <Alpha>255</Alpha>
         </Col>
         <IsCalculated>false</IsCalculated>

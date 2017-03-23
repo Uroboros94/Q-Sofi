@@ -1316,7 +1316,7 @@
           <Alpha>255</Alpha>
         </TestTubeColor>
       </GaugeSettings>
-      <ColWidth>506</ColWidth>
+      <ColWidth>388</ColWidth>
       <ShowAsPopup>false</ShowAsPopup>
       <Searchable>false</Searchable>
       <LineMode>LINEMODE_STRAIGHT</LineMode>
@@ -2743,7 +2743,7 @@
           <Alpha>255</Alpha>
         </TestTubeColor>
       </GaugeSettings>
-      <ColWidth>497</ColWidth>
+      <ColWidth>384</ColWidth>
       <ShowAsPopup>false</ShowAsPopup>
       <Searchable>false</Searchable>
       <LineMode>LINEMODE_STRAIGHT</LineMode>
@@ -3228,7 +3228,7 @@
           <Alpha>255</Alpha>
         </TestTubeColor>
       </GaugeSettings>
-      <ColWidth>503</ColWidth>
+      <ColWidth>347</ColWidth>
       <ShowAsPopup>false</ShowAsPopup>
       <Searchable>false</Searchable>
       <LineMode>LINEMODE_STRAIGHT</LineMode>
@@ -3713,7 +3713,7 @@
           <Alpha>255</Alpha>
         </TestTubeColor>
       </GaugeSettings>
-      <ColWidth>253</ColWidth>
+      <ColWidth>113</ColWidth>
       <ShowAsPopup>false</ShowAsPopup>
       <Searchable>false</Searchable>
       <LineMode>LINEMODE_STRAIGHT</LineMode>
@@ -6769,12 +6769,12 @@
   <TableProperties>
     <VerticalLabels>false</VerticalLabels>
     <ColWidths>
-      <int>753</int>
+      <int>409</int>
       <int>84</int>
-      <int>506</int>
-      <int>497</int>
-      <int>503</int>
-      <int>253</int>
+      <int>388</int>
+      <int>384</int>
+      <int>347</int>
+      <int>113</int>
       <int>100</int>
       <int>100</int>
     </ColWidths>
