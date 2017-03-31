@@ -135,10 +135,11 @@ ContabilidadTemp:
 	Resident PlanCuentas;
 	DROP table PlanCuentas;
 
-	//Left Join (ContabilidadTemp) LOAD
-	//	DIMENSION_CENTRO_DE_COSTO,
-	//	Capitalize(DESC_CENTRO_DE_COSTO) as DESC_CENTRO_DE_COSTO
-	//Resident CentroCostos;
+	Left Join (ContabilidadTemp) LOAD
+		DIMENSION_CENTRO_DE_COSTO,
+		FirstValue(Capitalize(DESC_CENTRO_DE_COSTO))  as DESC_CENTRO_DE_COSTO
+	Resident CentroCostos
+	Group By DIMENSION_CENTRO_DE_COSTO;
 	DROP table CentroCostos;
 
 QUALIFY *;
@@ -156,7 +157,7 @@ UNQUALIFY SK.ID_CO;
 			CUENTA_N4						as CUENTA_N4,
 			CUENTA_N5						as CUENTA_N5,
 			DEBITOS 						as DEBITO,
-			//DESC_CENTRO_DE_COSTO			as DESC_CENTRO_DE_COSTO,
+			DESC_CENTRO_DE_COSTO			as DESC_CENTRO_DE_COSTO,
 			'Homologación UNOE'				as DESC_COLECCION,
 			'Homologación UNOE'				as DESC_FACTURA,
 			'Homologación UNOE'				as DESC_FLUJO_DE_EFECTIVO,

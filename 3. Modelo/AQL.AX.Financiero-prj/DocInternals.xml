@@ -191,12 +191,12 @@
     <String>1</String>
     <String>Contabilidad</String>
     <String>67</String>
+    <String>1</String>
+    <String>Contabilidad</String>
+    <String>68</String>
     <String>2</String>
     <String>Contabilidad</String>
     <String>EstructuraComercial</String>
-    <String>68</String>
-    <String>1</String>
-    <String>Contabilidad</String>
     <String>69</String>
     <String>1</String>
     <String>Contabilidad</String>
@@ -297,7 +297,7 @@
     <Mode>0</Mode>
   </TableViewData>
   <Bookmarks></Bookmarks>
-  <SavedByVersion>12.10.10000.0</SavedByVersion>
+  <SavedByVersion>12.10.20100.0</SavedByVersion>
   <ForceBackEndMacroExecution>false</ForceBackEndMacroExecution>
   <FieldTags>
     <ScriptBased>
@@ -337,6 +337,7 @@
           <String>$Field</String>
           <String>$Table</String>
           <String>$Info</String>
+          <String>Contabilidad.DESC_CENTRO_DE_COSTO</String>
           <String>Contabilidad.DESC_COLECCION</String>
           <String>Contabilidad.DESC_FACTURA</String>
           <String>Contabilidad.DESC_FLUJO_DE_EFECTIVO</String>
@@ -363,7 +364,6 @@
           <String>Contabilidad.VOUCHER</String>
           <String>Contabilidad.TRIMESTRE</String>
           <String>Contabilidad.DESC_ESTRUCTURA_COMERCIAL</String>
-          <String>Contabilidad.DESC_CENTRO_DE_COSTO</String>
           <String>EC.Canal</String>
           <String>EC.NombreCompleto</String>
           <String>EC.Cuidad</String>
@@ -379,6 +379,7 @@
           <String>$Field</String>
           <String>$Table</String>
           <String>$Info</String>
+          <String>Contabilidad.DESC_CENTRO_DE_COSTO</String>
           <String>Contabilidad.DESC_COLECCION</String>
           <String>Contabilidad.DESC_FACTURA</String>
           <String>Contabilidad.DESC_FLUJO_DE_EFECTIVO</String>
@@ -405,7 +406,6 @@
           <String>Contabilidad.VOUCHER</String>
           <String>Contabilidad.TRIMESTRE</String>
           <String>Contabilidad.DESC_ESTRUCTURA_COMERCIAL</String>
-          <String>Contabilidad.DESC_CENTRO_DE_COSTO</String>
           <String>EC.Canal</String>
           <String>EC.NombreCompleto</String>
           <String>EC.Cuidad</String>
