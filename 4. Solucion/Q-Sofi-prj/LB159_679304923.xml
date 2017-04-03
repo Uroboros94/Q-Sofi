@@ -32,7 +32,7 @@
       </Color>
       <Font>
         <FontName>Calibri</FontName>
-        <PointSize1000>8000</PointSize1000>
+        <PointSize1000>10000</PointSize1000>
         <Underline>false</Underline>
         <Bold>false</Bold>
         <Italic>false</Italic>
@@ -220,7 +220,7 @@
       <StateName></StateName>
     </Frame>
     <ReadOnly>false</ReadOnly>
-    <NumAdjust>2</NumAdjust>
+    <NumAdjust>0</NumAdjust>
     <TextAdjust>0</TextAdjust>
     <MultiLine>0</MultiLine>
     <ShowFrequency>false</ShowFrequency>
